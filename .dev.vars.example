@@ -1,0 +1,22 @@
+# Copy to .dev.vars and set your private Alibaba Cloud Model Studio key.
+DASHSCOPE_API_KEY=
+# Beijing default; set this to your account's regional or workspace endpoint.
+DASHSCOPE_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
+QWEN_MODEL=qwen3.8-flash
+# TTS endpoint may be workspace specific. Keep voice IDs private in .dev.vars.
+TTS_BASE_URL=https://dashscope.aliyuncs.com/api/v1
+TTS_MODEL=qwen3-tts-flash
+TTS_SYSTEM_MODEL=cosyvoice-v3-flash
+TTS_CLONE_MODEL=qwen3-tts-vc-2026-01-22
+TTS_VOICE_CHEN=
+TTS_VOICE_XU=
+TTS_VOICE_WU=
+TTS_VOICE_NARRATOR=Chelsie
+TTS_VOICE_PLAYER=Ethan
+TTS_VOICE_ZHANGLONG=Kai
+TTS_VOICE_XIAOXIAO=Serena
+TTS_FEMALE_VOICE=Cherry
+TTS_MALE_VOICE=Ethan
+TTS_CHILD_VOICE=Ethan
+TTS_ADULT_VOICE=Ethan
+TTS_OLD_VOICE=Ethan

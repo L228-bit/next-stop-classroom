@@ -1,0 +1,54 @@
+{
+  "tool": "Built-in imagegen",
+  "background": "Green-screen originals, composited in CharacterSprite using SVG alpha filter",
+  "assets": [
+    {
+      "name": "student-v2",
+      "original": "/Users/linjiawei/.codex/generated_images/01a086b0-5e3b-7e80-810e-0ea0ac620a9d/exec-0cdbe455-66c3-4174-8998-7d501d2d3f53.png",
+      "prompt": "Use case: precise-object-edit. Edit the reference character for the same Chinese visual novel. Preserve the existing character age, identity, outfit, pose and proportions exactly. Replace ALL checkerboard pixels with one perfectly uniform bright chroma green #00FF00 background, including gaps between limbs. No checkerboard, no scene, no ground shadow, no green lighting or green spill on the person. This is a production sprite filmed against a green screen for game-engine compositing. Keep fine semi-realistic anime rendering, full head to shoes, centered 2:3 image. Remove any writing or logos on props. Do not change anything else.",
+      "path": "/Users/linjiawei/.codex/generated_images/01a086b0-5e3b-7e80-810e-0ea0ac620a9d/exec-08d8a24f-19c1-4d68-8e66-fd0b08090af3.png"
+    },
+    {
+      "name": "parent-v2",
+      "original": "/Users/linjiawei/.codex/generated_images/01a086b0-5e3b-7e80-810e-0ea0ac620a9d/exec-4d86f56a-575a-4134-a8b9-f3051d32e3c6.png",
+      "prompt": "Use case: precise-object-edit. Edit the reference character for the same Chinese visual novel. Preserve the existing character age, identity, outfit, pose and proportions exactly. Replace ALL checkerboard pixels with one perfectly uniform bright chroma green #00FF00 background, including gaps between limbs. No checkerboard, no scene, no ground shadow, no green lighting or green spill on the person. This is a production sprite filmed against a green screen for game-engine compositing. Keep fine semi-realistic anime rendering, full head to shoes, centered 2:3 image. Remove any writing or logos on props. Do not change anything else.",
+      "path": "/Users/linjiawei/.codex/generated_images/01a086b0-5e3b-7e80-810e-0ea0ac620a9d/exec-d32fbd6a-cc83-4904-a7cb-3271034f494f.png"
+    },
+    {
+      "name": "player-v2",
+      "original": "/Users/linjiawei/.codex/generated_images/01a086b0-5e3b-7e80-810e-0ea0ac620a9d/exec-74466c6c-5d34-4370-939f-e99ade928b55.png",
+      "prompt": "Use case: precise-object-edit. Edit the reference character for the same Chinese visual novel. Preserve the existing character age, identity, outfit, pose and proportions exactly. Replace ALL checkerboard pixels with one perfectly uniform bright chroma green #00FF00 background, including gaps between limbs. No checkerboard, no scene, no ground shadow, no green lighting or green spill on the person. This is a production sprite filmed against a green screen for game-engine compositing. Keep fine semi-realistic anime rendering, full head to shoes, centered 2:3 image. Remove any writing or logos on props. Do not change anything else.",
+      "path": "/Users/linjiawei/.codex/generated_images/01a086b0-5e3b-7e80-810e-0ea0ac620a9d/exec-07909a97-4631-4f5b-95c1-04e8cb371c16.png"
+    },
+    {
+      "name": "narrator-v2",
+      "original": "/Users/linjiawei/.codex/generated_images/01a086b0-5e3b-7e80-810e-0ea0ac620a9d/exec-087832d6-913a-4eae-85ac-d483add9d485.png",
+      "prompt": "Use case: precise-object-edit. Edit the reference character for the same Chinese visual novel. Preserve the existing character age, identity, outfit, pose and proportions exactly. Replace ALL checkerboard pixels with one perfectly uniform bright chroma green #00FF00 background, including gaps between limbs. No checkerboard, no scene, no ground shadow, no green lighting or green spill on the person. This is a production sprite filmed against a green screen for game-engine compositing. Keep fine semi-realistic anime rendering, full head to shoes, centered 2:3 image. Remove any writing or logos on props. Do not change anything else.",
+      "path": "/Users/linjiawei/.codex/generated_images/01a086b0-5e3b-7e80-810e-0ea0ac620a9d/exec-6b422344-d058-44e8-a589-d55853b195db.png"
+    },
+    {
+      "name": "child-v2",
+      "original": "/Users/linjiawei/.codex/generated_images/01a086b0-5e3b-7e80-810e-0ea0ac620a9d/exec-9a69c742-671e-4bda-8f55-75461115616f.png",
+      "prompt": "Use case: precise-object-edit. Edit the reference character for the same Chinese visual novel. Age correction: this boy must look 15 years old, a teenage middle-school boy with a longer face, less round cheeks, modest eyes, tall adolescent proportions. Keep teal school jacket and backpack. Replace ALL checkerboard pixels with one perfectly uniform bright chroma green #00FF00 background, including gaps between limbs. No checkerboard, no scene, no ground shadow, no green lighting or green spill on the person. This is a production sprite filmed against a green screen for game-engine compositing. Keep fine semi-realistic anime rendering, full head to shoes, centered 2:3 image. Remove any writing or logos on props. Do not change anything else.",
+      "path": "/Users/linjiawei/.codex/generated_images/01a086b0-5e3b-7e80-810e-0ea0ac620a9d/exec-db811945-fc43-4a24-899d-cd232ee20907.png"
+    },
+    {
+      "name": "young-child-v2",
+      "original": "/Users/linjiawei/.codex/generated_images/01a086b0-5e3b-7e80-810e-0ea0ac620a9d/exec-ccb78e06-3b9f-4c41-901e-28c5daaec8a5.png",
+      "prompt": "Use case: precise-object-edit. Edit the reference character for the same Chinese visual novel. Age correction: this boy must look 13–14 years old, a young teenage visitor to a school open day, NOT a seven-year-old. Longer face, smaller eyes, taller teenage build. Keep yellow sweatshirt and blue trousers. Replace ALL checkerboard pixels with one perfectly uniform bright chroma green #00FF00 background, including gaps between limbs. No checkerboard, no scene, no ground shadow, no green lighting or green spill on the person. This is a production sprite filmed against a green screen for game-engine compositing. Keep fine semi-realistic anime rendering, full head to shoes, centered 2:3 image. Remove any writing or logos on props. Do not change anything else.",
+      "path": "/Users/linjiawei/.codex/generated_images/01a086b0-5e3b-7e80-810e-0ea0ac620a9d/exec-30128c85-a4db-4996-ae97-33ead9f21283.png"
+    },
+    {
+      "name": "player-43",
+      "original": "/Users/linjiawei/.codex/generated_images/01a086b0-5e3b-7e80-810e-0ea0ac620a9d/exec-74466c6c-5d34-4370-939f-e99ade928b55.png",
+      "prompt": "Use case: identity-preserve. Age this SAME male teacher to 43 years old for a later life chapter. Recognizable face, but age-appropriate realistic middle-aged face, modest lines, mature jaw and slightly tired gentle expression. Keep light blue shirt, dark trousers, lesson notebook, same fine semi-realistic anime style. Arms naturally resting, no embarrassed neck gesture. Full body head and shoes visible, centered 2:3. Perfect solid flat bright chroma green #00FF00 background for game engine compositing. No checkerboard, no text, no shadows outside character, no green spill.",
+      "path": "/Users/linjiawei/.codex/generated_images/01a086b0-5e3b-7e80-810e-0ea0ac620a9d/exec-c6c94aec-5bc8-4dd1-aea6-0143249c1813.png"
+    },
+    {
+      "name": "player-60",
+      "original": "/Users/linjiawei/.codex/generated_images/01a086b0-5e3b-7e80-810e-0ea0ac620a9d/exec-74466c6c-5d34-4370-939f-e99ade928b55.png",
+      "prompt": "Use case: identity-preserve. Age this SAME male teacher to 60 years old for a later life chapter. Recognizable face, but age-appropriate realistic gray hair, forehead and smile lines, mature jaw and relaxed retirement posture. Keep light blue shirt, dark trousers, lesson notebook, same fine semi-realistic anime style. Arms naturally resting, no embarrassed neck gesture. Full body head and shoes visible, centered 2:3. Perfect solid flat bright chroma green #00FF00 background for game engine compositing. No checkerboard, no text, no shadows outside character, no green spill.",
+      "path": "/Users/linjiawei/.codex/generated_images/01a086b0-5e3b-7e80-810e-0ea0ac620a9d/exec-6e2a6a2a-3e26-45cb-80f0-348fee0fdf3c.png"
+    }
+  ]
+}

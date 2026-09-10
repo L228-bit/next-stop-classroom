@@ -1,0 +1,23 @@
+{
+  "defaults": {
+    "cy": {
+      "name": "程瑛（陈应）",
+      "model": "qwen3-tts-vc-2026-01-22",
+      "voice": "qwen-tts-vc-chengying20s-voice-20260908234114012-167e",
+      "source": "20秒复刻"
+    },
+    "xj": {
+      "name": "许靖",
+      "model": "qwen3-tts-vc-2026-01-22",
+      "voice": "qwen-tts-vc-xujing15s-voice-20260910145836872-056b",
+      "source": "最后15秒"
+    },
+    "wgp": {
+      "name": "伍果平",
+      "model": "qwen3-tts-vc-2026-01-22",
+      "voice": "qwen-tts-vc-wgp15s-voice-20260910145840113-a259",
+      "source": "最后15秒",
+      "speed": 1.075
+    }
+  }
+}

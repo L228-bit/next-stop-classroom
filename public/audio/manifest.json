@@ -1,0 +1,5409 @@
+{
+  "clone_model": "qwen3-tts-vc-2026-01-22",
+  "system_model": "qwen3-tts-flash",
+  "generated_at": "2026-09-11T01:32:08+0800",
+  "items": [
+    {
+      "chapter": "01",
+      "segment": "intro",
+      "line": 0,
+      "text": "陈应在批作业，眉头拧着，红笔把一个答案圈了三遍。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "陈应在批作业，眉头拧着，红笔把一个答案圈了三遍。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 4.808375,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/01/intro/000.wav",
+      "status": "generated",
+      "bytes": 265004
+    },
+    {
+      "chapter": "01",
+      "segment": "intro",
+      "line": 1,
+      "text": "你拿着课本和教参站在门口，手里还攥着没吃完的半根玉米。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你拿着课本和教参站在门口，手里还攥着没吃完的半根玉米。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 5.083458333333334,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/01/intro/001.wav",
+      "status": "generated",
+      "bytes": 280364
+    },
+    {
+      "chapter": "01",
+      "segment": "intro",
+      "line": 2,
+      "text": "“新来的物理老师？坐这儿，准备一下等会儿来听课”陈应瞟了一眼你手上的东西，“明天顺便帮我也带根玉米。”",
+      "speaker": "陈应",
+      "parts": [
+        {
+          "speaker": "陈应",
+          "text": "“新来的物理老师？坐这儿，准备一下等会儿来听课”",
+          "voice": "qwen-tts-vc-chengying20s-voice-20260908234114012-167e",
+          "model": "qwen3-tts-vc-2026-01-22",
+          "start": 0.0,
+          "end": 4.48,
+          "speed": 1.0
+        },
+        {
+          "speaker": "旁白",
+          "text": "陈应瞟了一眼你手上的东西，",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 4.48,
+          "end": 6.358260869565218,
+          "speed": 1.15
+        },
+        {
+          "speaker": "陈应",
+          "text": "“明天顺便帮我也带根玉米。”",
+          "voice": "qwen-tts-vc-chengying20s-voice-20260908234114012-167e",
+          "model": "qwen3-tts-vc-2026-01-22",
+          "start": 6.358260869565218,
+          "end": 9.150416666666667,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/01/intro/002.wav",
+      "status": "generated",
+      "bytes": 453164
+    },
+    {
+      "chapter": "01",
+      "segment": "intro",
+      "line": 3,
+      "text": "你愣了一下，随即反应过来：“没问题！一定带！”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你愣了一下，随即反应过来：",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.130434782608696,
+          "speed": 1.15
+        },
+        {
+          "speaker": "你",
+          "text": "“没问题！一定带！”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 3.130434782608696,
+          "end": 4.417208333333333,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/01/intro/003.wav",
+      "status": "generated",
+      "bytes": 234284
+    },
+    {
+      "chapter": "01",
+      "segment": "intro",
+      "line": 4,
+      "text": "备课时，一道例题的讲解把你卡住。你拿起书，又放下，始终不知道该如何将这道题讲清。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "备课时，一道例题的讲解把你卡住。你拿起书，又放下，始终不知道该如何将这道题讲清。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 7.856041666666667,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/01/intro/004.wav",
+      "status": "generated",
+      "bytes": 433964
+    },
+    {
+      "chapter": "01",
+      "segment": "intro",
+      "line": 5,
+      "text": "陈应抬头：“书烫手？”",
+      "speaker": "陈应",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "陈应抬头：",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 0.9043478260869566,
+          "speed": 1.15
+        },
+        {
+          "speaker": "陈应",
+          "text": "“书烫手？”",
+          "voice": "qwen-tts-vc-chengying20s-voice-20260908234114012-167e",
+          "model": "qwen3-tts-vc-2026-01-22",
+          "start": 0.9043478260869566,
+          "end": 1.8624583333333333,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/01/intro/005.wav",
+      "status": "generated",
+      "bytes": 96044
+    },
+    {
+      "chapter": "01",
+      "segment": "A",
+      "line": 0,
+      "text": "“陈老师，这题我会算，但是不知道怎么讲。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“陈老师，这题我会算，但是不知道怎么讲。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.68,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/01/A/000.wav",
+      "status": "generated",
+      "bytes": 176684
+    },
+    {
+      "chapter": "01",
+      "segment": "A",
+      "line": 1,
+      "text": "他把旁边椅子腾出来：“坐。你先讲给我听。”",
+      "speaker": "陈应",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "他把旁边椅子腾出来：",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.5304347826086957,
+          "speed": 1.15
+        },
+        {
+          "speaker": "陈应",
+          "text": "“坐。你先讲给我听。”",
+          "voice": "qwen-tts-vc-chengying20s-voice-20260908234114012-167e",
+          "model": "qwen3-tts-vc-2026-01-22",
+          "start": 1.5304347826086957,
+          "end": 4.177833333333333,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/01/A/001.wav",
+      "status": "generated",
+      "bytes": 211244
+    },
+    {
+      "chapter": "01",
+      "segment": "A",
+      "line": 2,
+      "text": "你越讲越快，他伸手按住草稿纸。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你越讲越快，他伸手按住草稿纸。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.9360416666666667,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/01/A/002.wav",
+      "status": "generated",
+      "bytes": 161324
+    },
+    {
+      "chapter": "01",
+      "segment": "A",
+      "line": 3,
+      "text": "“慢点，你急啥。”",
+      "speaker": "陈应",
+      "parts": [
+        {
+          "speaker": "陈应",
+          "text": "“慢点，你急啥。”",
+          "voice": "qwen-tts-vc-chengying20s-voice-20260908234114012-167e",
+          "model": "qwen3-tts-vc-2026-01-22",
+          "start": 0.0,
+          "end": 1.52,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/01/A/003.wav",
+      "status": "generated",
+      "bytes": 73004
+    },
+    {
+      "chapter": "01",
+      "segment": "A",
+      "line": 4,
+      "text": "他换了两种讲法，又让你试了一遍。预备铃响了，他才起身。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "他换了两种讲法，又让你试了一遍。预备铃响了，他才起身。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 5.210916666666667,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/01/A/004.wav",
+      "status": "generated",
+      "bytes": 288044
+    },
+    {
+      "chapter": "01",
+      "segment": "A",
+      "line": 5,
+      "text": "“中午接着看，下午再给我讲一遍。”",
+      "speaker": "陈应",
+      "parts": [
+        {
+          "speaker": "陈应",
+          "text": "“中午接着看，下午再给我讲一遍。”",
+          "voice": "qwen-tts-vc-chengying20s-voice-20260908234114012-167e",
+          "model": "qwen3-tts-vc-2026-01-22",
+          "start": 0.0,
+          "end": 3.44,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/01/A/005.wav",
+      "status": "generated",
+      "bytes": 165164
+    },
+    {
+      "chapter": "01",
+      "segment": "A",
+      "line": 6,
+      "text": "你连忙给他空着的水杯接上水。这回总算有一道题你会做。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你连忙给他空着的水杯接上水。这回总算有一道题你会做。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 5.4275416666666665,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/01/A/006.wav",
+      "status": "generated",
+      "bytes": 299564
+    },
+    {
+      "chapter": "01",
+      "segment": "B",
+      "line": 0,
+      "text": "你在最后一排坐得笔直。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你在最后一排坐得笔直。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.9334166666666666,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/01/B/000.wav",
+      "status": "generated",
+      "bytes": 107564
+    },
+    {
+      "chapter": "01",
+      "segment": "B",
+      "line": 1,
+      "text": "学生画错受力图，陈应走过去：“先别擦。”",
+      "speaker": "陈应",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "学生画错受力图，陈应走过去：",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.7826086956521743,
+          "speed": 1.15
+        },
+        {
+          "speaker": "陈应",
+          "text": "“先别擦。”",
+          "voice": "qwen-tts-vc-chengying20s-voice-20260908234114012-167e",
+          "model": "qwen3-tts-vc-2026-01-22",
+          "start": 2.7826086956521743,
+          "end": 3.9840416666666667,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/01/B/001.wav",
+      "status": "generated",
+      "bytes": 211244
+    },
+    {
+      "chapter": "01",
+      "segment": "B",
+      "line": 2,
+      "text": "你的橡皮也停了。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你的橡皮也停了。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.3052916666666667,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/01/B/002.wav",
+      "status": "generated",
+      "bytes": 73004
+    },
+    {
+      "chapter": "01",
+      "segment": "B",
+      "line": 3,
+      "text": "他画了个简单例子，等学生想明白，才继续讲。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "他画了个简单例子，等学生想明白，才继续讲。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 4.321083333333333,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/01/B/003.wav",
+      "status": "generated",
+      "bytes": 238124
+    },
+    {
+      "chapter": "01",
+      "segment": "B",
+      "line": 4,
+      "text": "下课时，你的笔记写了两页，问号占半页。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "下课时，你的笔记写了两页，问号占半页。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 4.455208333333333,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/01/B/004.wav",
+      "status": "generated",
+      "bytes": 245804
+    },
+    {
+      "chapter": "01",
+      "segment": "B",
+      "line": 5,
+      "text": "陈应看了一眼：“刚才怎么不问？”",
+      "speaker": "陈应",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "陈应看了一眼：",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.1826086956521742,
+          "speed": 1.15
+        },
+        {
+          "speaker": "陈应",
+          "text": "“刚才怎么不问？”",
+          "voice": "qwen-tts-vc-chengying20s-voice-20260908234114012-167e",
+          "model": "qwen3-tts-vc-2026-01-22",
+          "start": 1.1826086956521742,
+          "end": 2.4712916666666667,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/01/B/005.wav",
+      "status": "generated",
+      "bytes": 126764
+    },
+    {
+      "chapter": "01",
+      "segment": "B",
+      "line": 6,
+      "text": "“怕耽误您上课。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“怕耽误您上课。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.2,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/01/B/006.wav",
+      "status": "generated",
+      "bytes": 57644
+    },
+    {
+      "chapter": "01",
+      "segment": "B",
+      "line": 7,
+      "text": "“有问题直接问，想那么多干啥。”",
+      "speaker": "陈应",
+      "parts": [
+        {
+          "speaker": "陈应",
+          "text": "“有问题直接问，想那么多干啥。”",
+          "voice": "qwen-tts-vc-chengying20s-voice-20260908234114012-167e",
+          "model": "qwen3-tts-vc-2026-01-22",
+          "start": 0.0,
+          "end": 2.8,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/01/B/007.wav",
+      "status": "generated",
+      "bytes": 134444
+    },
+    {
+      "chapter": "01",
+      "segment": "B",
+      "line": 8,
+      "text": "他把粉笔递给你，陪你重新走了一遍。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "他把粉笔递给你，陪你重新走了一遍。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.434833333333333,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/01/B/008.wav",
+      "status": "generated",
+      "bytes": 134444
+    },
+    {
+      "chapter": "01",
+      "segment": "C",
+      "line": 0,
+      "text": "“陈老师平时……好说话吗？”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“陈老师平时……好说话吗？”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.32,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/01/C/000.wav",
+      "status": "generated",
+      "bytes": 111404
+    },
+    {
+      "chapter": "01",
+      "segment": "C",
+      "line": 1,
+      "text": "吴国平抬头：“应仔只是看着比较凶……”",
+      "speaker": "吴国平",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "吴国平抬头：",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.0434782608695652,
+          "speed": 1.15
+        },
+        {
+          "speaker": "吴国平",
+          "text": "“应仔只是看着比较凶……”",
+          "voice": "qwen-tts-vc-wgp15s-voice-20260910145840113-a259",
+          "model": "qwen3-tts-vc-2026-01-22",
+          "start": 1.0434782608695652,
+          "end": 3.1202083333333333,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/01/C/001.wav",
+      "status": "generated",
+      "bytes": 157484
+    },
+    {
+      "chapter": "01",
+      "segment": "C",
+      "line": 2,
+      "text": "徐进正要接话，陈应推门进来：“你过来一下。”",
+      "speaker": "陈应",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "徐进正要接话，陈应推门进来：",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.71304347826087,
+          "speed": 1.15
+        },
+        {
+          "speaker": "陈应",
+          "text": "“你过来一下。”",
+          "voice": "qwen-tts-vc-chengying20s-voice-20260908234114012-167e",
+          "model": "qwen3-tts-vc-2026-01-22",
+          "start": 2.71304347826087,
+          "end": 3.6778333333333335,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/01/C/002.wav",
+      "status": "generated",
+      "bytes": 195884
+    },
+    {
+      "chapter": "01",
+      "segment": "C",
+      "line": 3,
+      "text": "你忐忑地走了过去。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你忐忑地走了过去。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.3865833333333333,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/01/C/003.wav",
+      "status": "generated",
+      "bytes": 76844
+    },
+    {
+      "chapter": "01",
+      "segment": "C",
+      "line": 4,
+      "text": "他递来一份旧教案，难点都做了标记。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "他递来一份旧教案，难点都做了标记。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.923,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/01/C/004.wav",
+      "status": "generated",
+      "bytes": 161324
+    },
+    {
+      "chapter": "01",
+      "segment": "C",
+      "line": 5,
+      "text": "“看你翻了一上午。拿去，有问题来问。”",
+      "speaker": "陈应",
+      "parts": [
+        {
+          "speaker": "陈应",
+          "text": "“看你翻了一上午。拿去，有问题来问。”",
+          "voice": "qwen-tts-vc-chengying20s-voice-20260908234114012-167e",
+          "model": "qwen3-tts-vc-2026-01-22",
+          "start": 0.0,
+          "end": 2.64,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/01/C/005.wav",
+      "status": "generated",
+      "bytes": 126764
+    },
+    {
+      "chapter": "01",
+      "segment": "common",
+      "line": 0,
+      "text": "下午，陈应带你熟悉教学楼。经过徐进的教室，里面传来一句：",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "下午，陈应带你熟悉教学楼。经过徐进的教室，里面传来一句：",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 5.4249583333333335,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/01/common/000.wav",
+      "status": "generated",
+      "bytes": 299564
+    },
+    {
+      "chapter": "01",
+      "segment": "common",
+      "line": 1,
+      "text": "“愿意跟随徐老师学语文的请举手。”",
+      "speaker": "徐进",
+      "parts": [
+        {
+          "speaker": "徐进",
+          "text": "“愿意跟随徐老师学语文的请举手。”",
+          "voice": "qwen-tts-vc-xujing20sretry-voice-20260908235658462-634d",
+          "model": "qwen3-tts-vc-2026-01-22",
+          "start": 0.0,
+          "end": 3.76,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/01/common/001.wav",
+      "status": "generated",
+      "bytes": 180524
+    },
+    {
+      "chapter": "01",
+      "segment": "common",
+      "line": 2,
+      "text": "你差点也举了，幸好手里还抱着物理书。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你差点也举了，幸好手里还抱着物理书。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.2727083333333336,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/01/common/002.wav",
+      "status": "generated",
+      "bytes": 180524
+    },
+    {
+      "chapter": "01",
+      "segment": "common",
+      "line": 3,
+      "text": "离校时，陈应喊住了你。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "离校时，陈应喊住了你。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.3646666666666665,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/01/common/003.wav",
+      "status": "generated",
+      "bytes": 130604
+    },
+    {
+      "chapter": "01",
+      "segment": "common",
+      "line": 4,
+      "text": "“明天记得帮我带根玉米，我喜欢吃玉米。”",
+      "speaker": "陈应",
+      "parts": [
+        {
+          "speaker": "陈应",
+          "text": "“明天记得帮我带根玉米，我喜欢吃玉米。”",
+          "voice": "qwen-tts-vc-chengying20s-voice-20260908234114012-167e",
+          "model": "qwen3-tts-vc-2026-01-22",
+          "start": 0.0,
+          "end": 3.2,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/01/common/004.wav",
+      "status": "generated",
+      "bytes": 153644
+    },
+    {
+      "chapter": "01",
+      "segment": "common",
+      "line": 5,
+      "text": "你在手机里记下：第一节课，玉米。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你在手机里记下：第一节课，玉米。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.8289583333333335,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/01/common/005.wav",
+      "status": "generated",
+      "bytes": 211244
+    },
+    {
+      "chapter": "02",
+      "segment": "intro",
+      "line": 0,
+      "text": "你刚讲完两节课，水还没喝上，一个学生抱着练习册过来了。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你刚讲完两节课，水还没喝上，一个学生抱着练习册过来了。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 4.727833333333334,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/02/intro/000.wav",
+      "status": "generated",
+      "bytes": 261164
+    },
+    {
+      "chapter": "02",
+      "segment": "intro",
+      "line": 1,
+      "text": "“老师，这道题我没懂，您能帮我讲一下吗？”",
+      "speaker": "学生",
+      "parts": [
+        {
+          "speaker": "学生",
+          "text": "“老师，这道题我没懂，您能帮我讲一下吗？”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.2,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/02/intro/001.wav",
+      "status": "generated",
+      "bytes": 153644
+    },
+    {
+      "chapter": "02",
+      "segment": "intro",
+      "line": 2,
+      "text": "你接过了练习册开始浏览，题目的前半部分不难，你顺着条件往下看，到最后一问时停住了。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你接过了练习册开始浏览，题目的前半部分不难，你顺着条件往下看，到最后一问时停住了。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 7.363291666666667,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/02/intro/002.wav",
+      "status": "generated",
+      "bytes": 407084
+    },
+    {
+      "chapter": "02",
+      "segment": "intro",
+      "line": 3,
+      "text": "学生站在桌边，等着。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "学生站在桌边，等着。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.0068333333333332,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/02/intro/003.wav",
+      "status": "generated",
+      "bytes": 111404
+    },
+    {
+      "chapter": "02",
+      "segment": "intro",
+      "line": 4,
+      "text": "你把题目又读了一遍。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你把题目又读了一遍。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.5184166666666667,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/02/intro/004.wav",
+      "status": "generated",
+      "bytes": 84524
+    },
+    {
+      "chapter": "02",
+      "segment": "intro",
+      "line": 5,
+      "text": "“老师？”",
+      "speaker": "学生",
+      "parts": [
+        {
+          "speaker": "学生",
+          "text": "“老师？”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.12,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/02/intro/005.wav",
+      "status": "generated",
+      "bytes": 53804
+    },
+    {
+      "chapter": "02",
+      "segment": "intro",
+      "line": 6,
+      "text": "“嗯，我看看。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“嗯，我看看。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 0.72,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/02/intro/006.wav",
+      "status": "generated",
+      "bytes": 34604
+    },
+    {
+      "chapter": "02",
+      "segment": "intro",
+      "line": 7,
+      "text": "办公室的钟走了一格。你忽然发现，“我看看”说第二遍的时候，比第一遍难说出口。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "办公室的钟走了一格。你忽然发现，“我看看”说第二遍的时候，比第一遍难说出口。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 7.8005,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/02/intro/007.wav",
+      "status": "generated",
+      "bytes": 430124
+    },
+    {
+      "chapter": "02",
+      "segment": "A",
+      "line": 0,
+      "text": "“我有点忙，你先自己查一下解析。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“我有点忙，你先自己查一下解析。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.32,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/02/A/000.wav",
+      "status": "generated",
+      "bytes": 111404
+    },
+    {
+      "chapter": "02",
+      "segment": "A",
+      "line": 1,
+      "text": "学生把练习册和手机拿过去，低头搜题目。你端起杯子喝了一口水，脑子里却还在思考那道题目。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "学生把练习册和手机拿过去，低头搜题目。你端起杯子喝了一口水，脑子里却还在思考那道题目。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 8.620041666666667,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/02/A/001.wav",
+      "status": "generated",
+      "bytes": 476204
+    },
+    {
+      "chapter": "02",
+      "segment": "A",
+      "line": 2,
+      "text": "抄到中间，他的笔停了。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "抄到中间，他的笔停了。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.0907916666666666,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/02/A/002.wav",
+      "status": "generated",
+      "bytes": 115244
+    },
+    {
+      "chapter": "02",
+      "segment": "A",
+      "line": 3,
+      "text": "“老师，这一步为什么这样列？”",
+      "speaker": "学生",
+      "parts": [
+        {
+          "speaker": "学生",
+          "text": "“老师，这一步为什么这样列？”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.16,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/02/A/003.wav",
+      "status": "generated",
+      "bytes": 103724
+    },
+    {
+      "chapter": "02",
+      "segment": "A",
+      "line": 4,
+      "text": "你把杯子放下，又把本子往两人中间挪了挪。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你把杯子放下，又把本子往两人中间挪了挪。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.7500416666666667,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/02/A/004.wav",
+      "status": "generated",
+      "bytes": 207404
+    },
+    {
+      "chapter": "02",
+      "segment": "A",
+      "line": 5,
+      "text": "这一次，你们没有接着往下抄。你顺着师傅写的步骤，把对应的条件重新标出来，学生也翻回前面的题干。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "这一次，你们没有接着往下抄。你顺着师傅写的步骤，把对应的条件重新标出来，学生也翻回前面的题干。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 8.767583333333333,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/02/A/005.wav",
+      "status": "generated",
+      "bytes": 483884
+    },
+    {
+      "chapter": "02",
+      "segment": "A",
+      "line": 6,
+      "text": "上课铃响时，他还剩最后两行没写。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "上课铃响时，他还剩最后两行没写。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.9327083333333333,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/02/A/006.wav",
+      "status": "generated",
+      "bytes": 161324
+    },
+    {
+      "chapter": "02",
+      "segment": "A",
+      "line": 7,
+      "text": "“本子先放我这儿，下课我们把这里讲完。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“本子先放我这儿，下课我们把这里讲完。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.12,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/02/A/007.wav",
+      "status": "generated",
+      "bytes": 149804
+    },
+    {
+      "chapter": "02",
+      "segment": "A",
+      "line": 8,
+      "text": "他点点头，把笔夹进练习册里，先回了教室。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "他点点头，把笔夹进练习册里，先回了教室。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 4.1,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/02/A/008.wav",
+      "status": "generated",
+      "bytes": 226604
+    },
+    {
+      "chapter": "02",
+      "segment": "B",
+      "line": 0,
+      "text": "你拿起笔，在草稿纸上画了一张受力图。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你拿起笔，在草稿纸上画了一张受力图。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.3374166666666665,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/02/B/000.wav",
+      "status": "generated",
+      "bytes": 184364
+    },
+    {
+      "chapter": "02",
+      "segment": "B",
+      "line": 1,
+      "text": "“你前面是怎么想的？”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“你前面是怎么想的？”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.36,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/02/B/001.wav",
+      "status": "generated",
+      "bytes": 65324
+    },
+    {
+      "chapter": "02",
+      "segment": "B",
+      "line": 2,
+      "text": "学生指给你看。你点点头，又把题目从头读了一遍，眼睛不自觉地往墙上的钟瞥了一下。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "学生指给你看。你点点头，又把题目从头读了一遍，眼睛不自觉地往墙上的钟瞥了一下。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 7.870208333333333,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/02/B/002.wav",
+      "status": "generated",
+      "bytes": 433964
+    },
+    {
+      "chapter": "02",
+      "segment": "B",
+      "line": 3,
+      "text": "距离上课还有一分钟。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "距离上课还有一分钟。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.666375,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/02/B/003.wav",
+      "status": "generated",
+      "bytes": 92204
+    },
+    {
+      "chapter": "02",
+      "segment": "B",
+      "line": 4,
+      "text": "你把已经写过的条件重新圈了一遍。学生仍站在旁边，没有要走的意思。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你把已经写过的条件重新圈了一遍。学生仍站在旁边，没有要走的意思。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 5.639583333333333,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/02/B/004.wav",
+      "status": "generated",
+      "bytes": 311084
+    },
+    {
+      "chapter": "02",
+      "segment": "B",
+      "line": 5,
+      "text": "终于，上课铃响了。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "终于，上课铃响了。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.0854583333333334,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/02/B/005.wav",
+      "status": "generated",
+      "bytes": 115244
+    },
+    {
+      "chapter": "02",
+      "segment": "B",
+      "line": 6,
+      "text": "“你先去上课，这道题下课再来。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“你先去上课，这道题下课再来。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.04,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/02/B/006.wav",
+      "status": "generated",
+      "bytes": 145964
+    },
+    {
+      "chapter": "02",
+      "segment": "B",
+      "line": 7,
+      "text": "他应了一声，把书留下跑了出去。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "他应了一声，把书留下跑了出去。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.5067916666666665,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/02/B/007.wav",
+      "status": "generated",
+      "bytes": 138284
+    },
+    {
+      "chapter": "02",
+      "segment": "B",
+      "line": 8,
+      "text": "办公室安静下来。你把练习册拉到面前，刚才一直绷着的肩膀松了一点。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "办公室安静下来。你把练习册拉到面前，刚才一直绷着的肩膀松了一点。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 6.332458333333333,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/02/B/008.wav",
+      "status": "generated",
+      "bytes": 349484
+    },
+    {
+      "chapter": "02",
+      "segment": "B",
+      "line": 9,
+      "text": "这节你没有课。你重新分析题干，把几个阶段分开，终于把最后一问算了出来，又代回条件检查了一遍。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "这节你没有课。你重新分析题干，把几个阶段分开，终于把最后一问算了出来，又代回条件检查了一遍。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 7.6595,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/02/B/009.wav",
+      "status": "generated",
+      "bytes": 422444
+    },
+    {
+      "chapter": "02",
+      "segment": "B",
+      "line": 10,
+      "text": "下课后，学生如约回来。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "下课后，学生如约回来。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.1675416666666667,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/02/B/010.wav",
+      "status": "generated",
+      "bytes": 119084
+    },
+    {
+      "chapter": "02",
+      "segment": "B",
+      "line": 11,
+      "text": "这次你讲得顺了。他听完，把本子合上：“原来是这里想错了。”",
+      "speaker": "学生",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "这次你讲得顺了。他听完，把本子合上：",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.2695652173913046,
+          "speed": 1.15
+        },
+        {
+          "speaker": "学生",
+          "text": "“原来是这里想错了。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 3.2695652173913046,
+          "end": 4.790791666666666,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/02/B/011.wav",
+      "status": "generated",
+      "bytes": 253484
+    },
+    {
+      "chapter": "02",
+      "segment": "B",
+      "line": 12,
+      "text": "你送他到门口，回来时看见桌上的水杯——里面的水还和刚才一样多。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你送他到门口，回来时看见桌上的水杯——里面的水还和刚才一样多。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 5.489458333333333,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/02/B/012.wav",
+      "status": "generated",
+      "bytes": 303404
+    },
+    {
+      "chapter": "02",
+      "segment": "C",
+      "line": 0,
+      "text": "“最后这一问，我现在也没想明白。你先别急着听答案，我们一起看看。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“最后这一问，我现在也没想明白。你先别急着听答案，我们一起看看。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 4.08,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/02/C/000.wav",
+      "status": "generated",
+      "bytes": 195884
+    },
+    {
+      "chapter": "02",
+      "segment": "C",
+      "line": 1,
+      "text": "学生有些意外，随后把自己的草稿也放到了桌上。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "学生有些意外，随后把自己的草稿也放到了桌上。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 4.109791666666666,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/02/C/001.wav",
+      "status": "generated",
+      "bytes": 226604
+    },
+    {
+      "chapter": "02",
+      "segment": "C",
+      "line": 2,
+      "text": "“我是从这里开始算不下去的。”",
+      "speaker": "学生",
+      "parts": [
+        {
+          "speaker": "学生",
+          "text": "“我是从这里开始算不下去的。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.08,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/02/C/002.wav",
+      "status": "generated",
+      "bytes": 99884
+    },
+    {
+      "chapter": "02",
+      "segment": "C",
+      "line": 3,
+      "text": "你让他坐下。两个人各画了一张受力图，写完，放在一起比较。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你让他坐下。两个人各画了一张受力图，写完，放在一起比较。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 5.082416666666667,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/02/C/003.wav",
+      "status": "generated",
+      "bytes": 280364
+    },
+    {
+      "chapter": "02",
+      "segment": "C",
+      "line": 4,
+      "text": "你们共同讨论这题目的解法，刚才没有头绪的地方，慢慢清晰起来。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你们共同讨论这题目的解法，刚才没有头绪的地方，慢慢清晰起来。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 4.883,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/02/C/004.wav",
+      "status": "generated",
+      "bytes": 268844
+    },
+    {
+      "chapter": "02",
+      "segment": "C",
+      "line": 5,
+      "text": "你们把运动过程重新分段，接着往下算。最后得到同一个结果时，学生先笑了一下。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你们把运动过程重新分段，接着往下算。最后得到同一个结果时，学生先笑了一下。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 7.248083333333334,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/02/C/005.wav",
+      "status": "generated",
+      "bytes": 399404
+    },
+    {
+      "chapter": "02",
+      "segment": "C",
+      "line": 6,
+      "text": "“谢谢老师，我懂了！”",
+      "speaker": "学生",
+      "parts": [
+        {
+          "speaker": "学生",
+          "text": "“谢谢老师，我懂了！”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.6,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/02/C/006.wav",
+      "status": "generated",
+      "bytes": 76844
+    },
+    {
+      "chapter": "02",
+      "segment": "C",
+      "line": 7,
+      "text": "他把两张草稿叠好，问能不能一起拿走。你点点头，留下了那张最开始画错的图。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "他把两张草稿叠好，问能不能一起拿走。你点点头，留下了那张最开始画错的图。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 7.442625,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/02/C/007.wav",
+      "status": "generated",
+      "bytes": 410924
+    },
+    {
+      "chapter": "02",
+      "segment": "common",
+      "line": 0,
+      "text": "午间整理桌面时，你把这道题记进了备课本。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "午间整理桌面时，你把这道题记进了备课本。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.756375,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/02/common/000.wav",
+      "status": "generated",
+      "bytes": 207404
+    },
+    {
+      "chapter": "02",
+      "segment": "common",
+      "line": 1,
+      "text": "题目旁边多了几行字：学生从哪里开始不明白，自己第一次看时漏了哪个条件。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "题目旁边多了几行字：学生从哪里开始不明白，自己第一次看时漏了哪个条件。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 7.091958333333333,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/02/common/001.wav",
+      "status": "generated",
+      "bytes": 391724
+    },
+    {
+      "chapter": "02",
+      "segment": "common",
+      "line": 2,
+      "text": "走廊里又有人叫“老师”。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "走廊里又有人叫",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.2521739130434784,
+          "speed": 1.15
+        },
+        {
+          "speaker": "学生",
+          "text": "“老师”。",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 1.2521739130434784,
+          "end": 1.743875,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/02/common/002.wav",
+      "status": "generated",
+      "bytes": 92204
+    },
+    {
+      "chapter": "02",
+      "segment": "common",
+      "line": 3,
+      "text": "你抬起头，看见另一个学生站在门口，手里也拿着一本练习册。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你抬起头，看见另一个学生站在门口，手里也拿着一本练习册。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 5.227541666666666,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/02/common/003.wav",
+      "status": "generated",
+      "bytes": 288044
+    },
+    {
+      "chapter": "03",
+      "segment": "intro",
+      "line": 0,
+      "text": "你在讲一道考试的压轴题。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你在讲一道考试的压轴题。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.94775,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/03/intro/000.wav",
+      "status": "generated",
+      "bytes": 107564
+    },
+    {
+      "chapter": "03",
+      "segment": "intro",
+      "line": 1,
+      "text": "黑板上画着题图的受力分析，你正在讲解题目最难理解的地方。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "黑板上画着题图的受力分析，你正在讲解题目最难理解的地方。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 5.638958333333333,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/03/intro/001.wav",
+      "status": "generated",
+      "bytes": 311084
+    },
+    {
+      "chapter": "03",
+      "segment": "intro",
+      "line": 2,
+      "text": "后排有个学生举起手。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "后排有个学生举起手。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.8194166666666667,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/03/intro/002.wav",
+      "status": "generated",
+      "bytes": 99884
+    },
+    {
+      "chapter": "03",
+      "segment": "intro",
+      "line": 3,
+      "text": "“老师，我觉得这个地方不是这样的，应该是……”",
+      "speaker": "学生",
+      "parts": [
+        {
+          "speaker": "学生",
+          "text": "“老师，我觉得这个地方不是这样的，应该是……”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.68,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/03/intro/003.wav",
+      "status": "generated",
+      "bytes": 176684
+    },
+    {
+      "chapter": "03",
+      "segment": "intro",
+      "line": 4,
+      "text": "你认真地听他把自己的想法讲完。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你认真地听他把自己的想法讲完。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.1506666666666665,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/03/intro/004.wav",
+      "status": "generated",
+      "bytes": 119084
+    },
+    {
+      "chapter": "03",
+      "segment": "intro",
+      "line": 5,
+      "text": "他以为你没有明白，把话说得更直接了一点：",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "他以为你没有明白，把话说得更直接了一点：",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.492958333333333,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/03/intro/005.wav",
+      "status": "generated",
+      "bytes": 192044
+    },
+    {
+      "chapter": "03",
+      "segment": "intro",
+      "line": 6,
+      "text": "“老师您是不是这个摩擦力画错了？”",
+      "speaker": "学生",
+      "parts": [
+        {
+          "speaker": "学生",
+          "text": "“老师您是不是这个摩擦力画错了？”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.0,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/03/intro/006.wav",
+      "status": "generated",
+      "bytes": 96044
+    },
+    {
+      "chapter": "03",
+      "segment": "intro",
+      "line": 7,
+      "text": "你回想刚刚讲题的过程，再看看黑板上写的一行行过程，你意识到好像确实是画错了。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你回想刚刚讲题的过程，再看看黑板上写的一行行过程，你意识到好像确实是画错了。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 7.2469166666666665,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/03/intro/007.wav",
+      "status": "generated",
+      "bytes": 399404
+    },
+    {
+      "chapter": "03",
+      "segment": "A",
+      "line": 0,
+      "text": "“你愿意上来把摩擦力画一下吗？”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“你愿意上来把摩擦力画一下吗？”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.92,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/03/A/000.wav",
+      "status": "generated",
+      "bytes": 92204
+    },
+    {
+      "chapter": "03",
+      "segment": "A",
+      "line": 1,
+      "text": "他先看了看旁边的同学，才走上来。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "他先看了看旁边的同学，才走上来。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.0410833333333334,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/03/A/001.wav",
+      "status": "generated",
+      "bytes": 169004
+    },
+    {
+      "chapter": "03",
+      "segment": "A",
+      "line": 2,
+      "text": "他画好摩擦力，讲出了错误的点。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "他画好摩擦力，讲出了错误的点。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.6569166666666666,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/03/A/002.wav",
+      "status": "generated",
+      "bytes": 145964
+    },
+    {
+      "chapter": "03",
+      "segment": "A",
+      "line": 3,
+      "text": "你满意地点了点头，说道：“诶，这个同学讲的是不是很好啊，同学们学一学，啊。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你满意地点了点头，说道：",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.017391304347826,
+          "speed": 1.15
+        },
+        {
+          "speaker": "你",
+          "text": "“诶，这个同学讲的是不是很好啊，同学们学一学，啊。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 2.017391304347826,
+          "end": 5.068375,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/03/A/003.wav",
+      "status": "generated",
+      "bytes": 257324
+    },
+    {
+      "chapter": "03",
+      "segment": "A",
+      "line": 4,
+      "text": "看着黑板上正确的图示，你长舒了一口气。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "看着黑板上正确的图示，你长舒了一口气。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.411791666666667,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/03/A/004.wav",
+      "status": "generated",
+      "bytes": 188204
+    },
+    {
+      "chapter": "03",
+      "segment": "B",
+      "line": 0,
+      "text": "你轻咳了一下，看了看那位同学。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你轻咳了一下，看了看那位同学。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.4324166666666667,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/03/B/000.wav",
+      "status": "generated",
+      "bytes": 134444
+    },
+    {
+      "chapter": "03",
+      "segment": "B",
+      "line": 1,
+      "text": "“呃是这样的，这个同学说的是对的啊，我讲错了。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“呃是这样的，这个同学说的是对的啊，我讲错了。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 4.08,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/03/B/001.wav",
+      "status": "generated",
+      "bytes": 195884
+    },
+    {
+      "chapter": "03",
+      "segment": "B",
+      "line": 2,
+      "text": "你硬着头皮把题目讲完了，讲完之后你想到了网上学的老师的话术。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你硬着头皮把题目讲完了，讲完之后你想到了网上学的老师的话术。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 5.709208333333334,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/03/B/002.wav",
+      "status": "generated",
+      "bytes": 314924
+    },
+    {
+      "chapter": "03",
+      "segment": "B",
+      "line": 3,
+      "text": "“这个题目出得不好啊，这套题不严谨，高考不会出这么有争议的题，啊。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“这个题目出得不好啊，这套题不严谨，高考不会出这么有争议的题，啊。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 5.52,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/03/B/003.wav",
+      "status": "generated",
+      "bytes": 265004
+    },
+    {
+      "chapter": "03",
+      "segment": "B",
+      "line": 4,
+      "text": "说完下课铃响了，你迅速喊了下课离开教室。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "说完下课铃响了，你迅速喊了下课离开教室。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 4.659541666666667,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/03/B/004.wav",
+      "status": "generated",
+      "bytes": 257324
+    },
+    {
+      "chapter": "03",
+      "segment": "C",
+      "line": 0,
+      "text": "你用粉笔轻敲讲台：“现在审理摩擦力方向争议。禁止以嗓门大小作为证据。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你用粉笔轻敲讲台：",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.017391304347826,
+          "speed": 1.15
+        },
+        {
+          "speaker": "你",
+          "text": "“现在审理摩擦力方向争议。禁止以嗓门大小作为证据。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 2.017391304347826,
+          "end": 6.579916666666667,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/03/C/000.wav",
+      "status": "generated",
+      "bytes": 330284
+    },
+    {
+      "chapter": "03",
+      "segment": "C",
+      "line": 1,
+      "text": "刚才举手的学生立刻坐直：“我有证据！”",
+      "speaker": "学生",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "刚才举手的学生立刻坐直：",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.0869565217391304,
+          "speed": 1.15
+        },
+        {
+          "speaker": "学生",
+          "text": "“我有证据！”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 2.0869565217391304,
+          "end": 2.965291666666667,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/03/C/001.wav",
+      "status": "generated",
+      "bytes": 157484
+    },
+    {
+      "chapter": "03",
+      "segment": "C",
+      "line": 2,
+      "text": "你请他画出正确图解，再让另一位同学指出木块相对水平面的运动方向。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你请他画出正确图解，再让另一位同学指出木块相对水平面的运动方向。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 5.919958333333334,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/03/C/002.wav",
+      "status": "generated",
+      "bytes": 326444
+    },
+    {
+      "chapter": "03",
+      "segment": "C",
+      "line": 3,
+      "text": "有人替摩擦力辩护：“它不是故意往右的，是被带动的。”",
+      "speaker": "学生",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "有人替摩擦力辩护：",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.6,
+          "speed": 1.15
+        },
+        {
+          "speaker": "学生",
+          "text": "“它不是故意往右的，是被带动的。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 1.6,
+          "end": 3.67275,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/03/C/003.wav",
+      "status": "generated",
+      "bytes": 188204
+    },
+    {
+      "chapter": "03",
+      "segment": "C",
+      "line": 4,
+      "text": "笑声里，你补全两幅图的条件，让全班重新判断。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "笑声里，你补全两幅图的条件，让全班重新判断。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 4.808041666666667,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/03/C/004.wav",
+      "status": "generated",
+      "bytes": 265004
+    },
+    {
+      "chapter": "03",
+      "segment": "C",
+      "line": 5,
+      "text": "后排问：“老师，判几年？”",
+      "speaker": "学生",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "后排问：",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 0.6956521739130436,
+          "speed": 1.15
+        },
+        {
+          "speaker": "学生",
+          "text": "“老师，判几年？”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.6956521739130436,
+          "end": 2.133958333333333,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/03/C/005.wav",
+      "status": "generated",
+      "bytes": 107564
+    },
+    {
+      "chapter": "03",
+      "segment": "C",
+      "line": 6,
+      "text": "“判你把‘相对谁’写完整。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“判你把‘相对谁’写完整。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.0,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/03/C/006.wav",
+      "status": "generated",
+      "bytes": 96044
+    },
+    {
+      "chapter": "03",
+      "segment": "C",
+      "line": 7,
+      "text": "他低头补了三个字，又举手：“报告，已执行。”",
+      "speaker": "学生",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "他低头补了三个字，又举手：",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.573913043478261,
+          "speed": 1.15
+        },
+        {
+          "speaker": "学生",
+          "text": "“报告，已执行。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 2.573913043478261,
+          "end": 3.775916666666667,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/03/C/007.wav",
+      "status": "generated",
+      "bytes": 199724
+    },
+    {
+      "chapter": "03",
+      "segment": "common",
+      "line": 0,
+      "text": "课后，陈应看了你的课堂记录。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "课后，陈应看了你的课堂记录。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.5764583333333335,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/03/common/000.wav",
+      "status": "generated",
+      "bytes": 142124
+    },
+    {
+      "chapter": "03",
+      "segment": "common",
+      "line": 1,
+      "text": "你说，学生当场问得那么直接，自己确实紧张了一下。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你说，学生当场问得那么直接，自己确实紧张了一下。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.966125,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/03/common/001.wav",
+      "status": "generated",
+      "bytes": 218924
+    },
+    {
+      "chapter": "03",
+      "segment": "common",
+      "line": 2,
+      "text": "“同学们会不会觉得我水平不行。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“同学们会不会觉得我水平不行。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.76,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/03/common/002.wav",
+      "status": "generated",
+      "bytes": 84524
+    },
+    {
+      "chapter": "03",
+      "segment": "common",
+      "line": 3,
+      "text": "陈应把记录翻回那一页。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "陈应把记录翻回那一页。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.750625,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/03/common/003.wav",
+      "status": "generated",
+      "bytes": 96044
+    },
+    {
+      "chapter": "03",
+      "segment": "common",
+      "line": 4,
+      "text": "“是骡子是马溜溜溜就知道了。”",
+      "speaker": "陈应",
+      "parts": [
+        {
+          "speaker": "陈应",
+          "text": "“是骡子是马溜溜溜就知道了。”",
+          "voice": "qwen-tts-vc-chengying20s-voice-20260908234114012-167e",
+          "model": "qwen3-tts-vc-2026-01-22",
+          "start": 0.0,
+          "end": 3.04,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/03/common/004.wav",
+      "status": "generated",
+      "bytes": 145964
+    },
+    {
+      "chapter": "03",
+      "segment": "common",
+      "line": 5,
+      "text": "他指了指你写下的问题。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "他指了指你写下的问题。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.6685416666666666,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/03/common/005.wav",
+      "status": "generated",
+      "bytes": 92204
+    },
+    {
+      "chapter": "03",
+      "segment": "common",
+      "line": 6,
+      "text": "“问得出来，总比带着疑问下课好。”",
+      "speaker": "陈应",
+      "parts": [
+        {
+          "speaker": "陈应",
+          "text": "“问得出来，总比带着疑问下课好。”",
+          "voice": "qwen-tts-vc-chengying20s-voice-20260908234114012-167e",
+          "model": "qwen3-tts-vc-2026-01-22",
+          "start": 0.0,
+          "end": 2.72,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/03/common/006.wav",
+      "status": "generated",
+      "bytes": 130604
+    },
+    {
+      "chapter": "03",
+      "segment": "common",
+      "line": 7,
+      "text": "第二天，你进教室时，那位学生又举手叫你。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "第二天，你进教室时，那位学生又举手叫你。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 4.1695,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/03/common/007.wav",
+      "status": "generated",
+      "bytes": 230444
+    },
+    {
+      "chapter": "03",
+      "segment": "common",
+      "line": 8,
+      "text": "这一次你没有先紧张。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "这一次你没有先紧张。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.6014583333333334,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/03/common/008.wav",
+      "status": "generated",
+      "bytes": 88364
+    },
+    {
+      "chapter": "04",
+      "segment": "intro",
+      "line": 0,
+      "text": "笑笑第三次在上课铃响之后才进门。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "笑笑第三次在上课铃响之后才进门。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.1252916666666666,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/04/intro/000.wav",
+      "status": "generated",
+      "bytes": 172844
+    },
+    {
+      "chapter": "04",
+      "segment": "intro",
+      "line": 1,
+      "text": "她站在门口，懒散地说了声“报告”，一只手还攥着没拉好的书包带。",
+      "speaker": "笑笑",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "她站在门口，懒散地说了声",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.5043478260869567,
+          "speed": 1.15
+        },
+        {
+          "speaker": "笑笑",
+          "text": "“报告”",
+          "voice": "Serena",
+          "model": "qwen3-tts-flash",
+          "start": 2.5043478260869567,
+          "end": 3.144347826086957,
+          "speed": 1.0
+        },
+        {
+          "speaker": "旁白",
+          "text": "，一只手还攥着没拉好的书包带。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 3.144347826086957,
+          "end": 5.366708333333333,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/04/intro/001.wav",
+      "status": "generated",
+      "bytes": 291884
+    },
+    {
+      "chapter": "04",
+      "segment": "intro",
+      "line": 2,
+      "text": "你让她先进来。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你让她先进来。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.045375,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/04/intro/002.wav",
+      "status": "generated",
+      "bytes": 57644
+    },
+    {
+      "chapter": "04",
+      "segment": "intro",
+      "line": 3,
+      "text": "讲到一半，她又趴下了。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "讲到一半，她又趴下了。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.9585416666666666,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/04/intro/003.wav",
+      "status": "generated",
+      "bytes": 107564
+    },
+    {
+      "chapter": "04",
+      "segment": "intro",
+      "line": 4,
+      "text": "窗边的人在记笔记，她的笔停在纸上，留下一个越来越重的墨点。同桌看了她一眼，把自己的本子稍微往旁边挪了挪。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "窗边的人在记笔记，她的笔停在纸上，留下一个越来越重的墨点。同桌看了她一眼，把自己的本子稍微往旁边挪了挪。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 11.765416666666667,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/04/intro/004.wav",
+      "status": "generated",
+      "bytes": 649004
+    },
+    {
+      "chapter": "04",
+      "segment": "intro",
+      "line": 5,
+      "text": "你走下讲台，在她桌边停住。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你走下讲台，在她桌边停住。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.168125,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/04/intro/005.wav",
+      "status": "generated",
+      "bytes": 119084
+    },
+    {
+      "chapter": "04",
+      "segment": "A",
+      "line": 0,
+      "text": "你敲了两下桌面。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你敲了两下桌面。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.320375,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/04/A/000.wav",
+      "status": "generated",
+      "bytes": 73004
+    },
+    {
+      "chapter": "04",
+      "segment": "A",
+      "line": 1,
+      "text": "笑笑抬起头，先看黑板，又低头找书。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "笑笑抬起头，先看黑板，又低头找书。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.472375,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/04/A/001.wav",
+      "status": "generated",
+      "bytes": 192044
+    },
+    {
+      "chapter": "04",
+      "segment": "A",
+      "line": 2,
+      "text": "“来，这道题你来回答一下。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“来，这道题你来回答一下。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.16,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/04/A/002.wav",
+      "status": "generated",
+      "bytes": 103724
+    },
+    {
+      "chapter": "04",
+      "segment": "A",
+      "line": 3,
+      "text": "于是在全班的哄笑声中，她站了起来。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "于是在全班的哄笑声中，她站了起来。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.9282083333333335,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/04/A/003.wav",
+      "status": "generated",
+      "bytes": 161324
+    },
+    {
+      "chapter": "04",
+      "segment": "A",
+      "line": 4,
+      "text": "她低着头站在那里，你也知道她回答不上来，于是挥了挥手让她坐下。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "她低着头站在那里，你也知道她回答不上来，于是挥了挥手让她坐下。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 6.256291666666667,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/04/A/004.wav",
+      "status": "generated",
+      "bytes": 345644
+    },
+    {
+      "chapter": "04",
+      "segment": "A",
+      "line": 5,
+      "text": "后面半节课她没有再睡觉，而是默默地听课和做笔记。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "后面半节课她没有再睡觉，而是默默地听课和做笔记。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 4.735333333333333,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/04/A/005.wav",
+      "status": "generated",
+      "bytes": 261164
+    },
+    {
+      "chapter": "04",
+      "segment": "A",
+      "line": 6,
+      "text": "下课后，她走到了你的办公桌旁边。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "下课后，她走到了你的办公桌旁边。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.5673333333333335,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/04/A/006.wav",
+      "status": "generated",
+      "bytes": 142124
+    },
+    {
+      "chapter": "04",
+      "segment": "B",
+      "line": 0,
+      "text": "你把她拍醒，指了指讲台边上的位置。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你把她拍醒，指了指讲台边上的位置。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.7909166666666665,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/04/B/000.wav",
+      "status": "generated",
+      "bytes": 153644
+    },
+    {
+      "chapter": "04",
+      "segment": "B",
+      "line": 1,
+      "text": "“以后你坐讲台旁边，VIP位。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“以后你坐讲台旁边，VIP位。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.48,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/04/B/001.wav",
+      "status": "generated",
+      "bytes": 119084
+    },
+    {
+      "chapter": "04",
+      "segment": "B",
+      "line": 2,
+      "text": "“老师，这位置太贵了。”",
+      "speaker": "笑笑",
+      "parts": [
+        {
+          "speaker": "笑笑",
+          "text": "“老师，这位置太贵了。”",
+          "voice": "Serena",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.6,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/04/B/002.wav",
+      "status": "generated",
+      "bytes": 76844
+    },
+    {
+      "chapter": "04",
+      "segment": "B",
+      "line": 3,
+      "text": "笑笑一脸赔笑地看着你。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "笑笑一脸赔笑地看着你。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.7394166666666666,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/04/B/003.wav",
+      "status": "generated",
+      "bytes": 96044
+    },
+    {
+      "chapter": "04",
+      "segment": "B",
+      "line": 4,
+      "text": "“免费，但不能再睡。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“免费，但不能再睡。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.76,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/04/B/004.wav",
+      "status": "generated",
+      "bytes": 84524
+    },
+    {
+      "chapter": "04",
+      "segment": "B",
+      "line": 5,
+      "text": "下课后，她抱着书包挪到前面，同桌冲她竖了个大拇指。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "下课后，她抱着书包挪到前面，同桌冲她竖了个大拇指。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 5.223083333333333,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/04/B/005.wav",
+      "status": "generated",
+      "bytes": 288044
+    },
+    {
+      "chapter": "04",
+      "segment": "B",
+      "line": 6,
+      "text": "她换好座位之后来到了你的办公桌边。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "她换好座位之后来到了你的办公桌边。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.7769583333333334,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/04/B/006.wav",
+      "status": "generated",
+      "bytes": 153644
+    },
+    {
+      "chapter": "04",
+      "segment": "C",
+      "line": 0,
+      "text": "你轻声叫醒她，让她先坐好。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你轻声叫醒她，让她先坐好。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.5124583333333335,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/04/C/000.wav",
+      "status": "generated",
+      "bytes": 138284
+    },
+    {
+      "chapter": "04",
+      "segment": "C",
+      "line": 1,
+      "text": "“下课后来办公室找我。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“下课后来办公室找我。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.84,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/04/C/001.wav",
+      "status": "generated",
+      "bytes": 88364
+    },
+    {
+      "chapter": "04",
+      "segment": "C",
+      "line": 2,
+      "text": "她下课后准时来到了你的办公桌旁边。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "她下课后准时来到了你的办公桌旁边。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.7823333333333333,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/04/C/002.wav",
+      "status": "generated",
+      "bytes": 153644
+    },
+    {
+      "chapter": "04",
+      "segment": "C",
+      "line": 3,
+      "text": "你拿出了你珍藏的零食，给她搬了个座位。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你拿出了你珍藏的零食，给她搬了个座位。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.056375,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/04/C/003.wav",
+      "status": "generated",
+      "error": "timeout: The read operation timed out",
+      "bytes": 169004
+    },
+    {
+      "chapter": "04",
+      "segment": "C",
+      "line": 4,
+      "text": "你靠在椅子上，示意她也坐下。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你靠在椅子上，示意她也坐下。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.4478333333333335,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/04/C/004.wav",
+      "status": "generated",
+      "bytes": 134444
+    },
+    {
+      "chapter": "04",
+      "segment": "C",
+      "line": 5,
+      "text": "“来吧，跟我讲讲你什么情况。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“来吧，跟我讲讲你什么情况。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.68,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/04/C/005.wav",
+      "status": "generated",
+      "bytes": 80684
+    },
+    {
+      "chapter": "04",
+      "segment": "common",
+      "line": 0,
+      "text": "后来你知道，接送和照看妹妹并不是她一天里全部的困难，作业拖得太久、已经听不懂的几节课，也让她越来越不想开始。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "后来你知道，接送和照看妹妹并不是她一天里全部的困难，作业拖得太久、已经听不懂的几节课，也让她越来越不想开始。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 10.025625,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/04/common/000.wav",
+      "status": "generated",
+      "bytes": 553004
+    },
+    {
+      "chapter": "04",
+      "segment": "common",
+      "line": 1,
+      "text": "你和她商量补交顺序，需要协调的部分再找相关老师和家里沟通。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你和她商量补交顺序，需要协调的部分再找相关老师和家里沟通。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 5.218666666666667,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/04/common/001.wav",
+      "status": "generated",
+      "bytes": 288044
+    },
+    {
+      "chapter": "04",
+      "segment": "common",
+      "line": 2,
+      "text": "有一回，你在走廊遇见吴国平，他手里拿着书，正要去上课。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "有一回，你在走廊遇见吴国平，他手里拿着书，正要去上课。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 5.147375,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/04/common/002.wav",
+      "status": "generated",
+      "bytes": 284204
+    },
+    {
+      "chapter": "04",
+      "segment": "common",
+      "line": 3,
+      "text": "“笑笑最近怎么样？”",
+      "speaker": "吴国平",
+      "parts": [
+        {
+          "speaker": "吴国平",
+          "text": "“笑笑最近怎么样？”",
+          "voice": "qwen-tts-vc-wgp15s-voice-20260910145840113-a259",
+          "model": "qwen3-tts-vc-2026-01-22",
+          "start": 0.0,
+          "end": 1.44,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/04/common/003.wav",
+      "status": "generated",
+      "bytes": 69164
+    },
+    {
+      "chapter": "04",
+      "segment": "common",
+      "line": 4,
+      "text": "“开始补了，还不太稳。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“开始补了，还不太稳。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.2,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/04/common/004.wav",
+      "status": "generated",
+      "bytes": 57644
+    },
+    {
+      "chapter": "04",
+      "segment": "common",
+      "line": 5,
+      "text": "“慢慢看。作业量这边我们对一下，给她太大压力。”",
+      "speaker": "吴国平",
+      "parts": [
+        {
+          "speaker": "吴国平",
+          "text": "“慢慢看。作业量这边我们对一下，给她太大压力。”",
+          "voice": "qwen-tts-vc-wgp15s-voice-20260910145840113-a259",
+          "model": "qwen3-tts-vc-2026-01-22",
+          "start": 0.0,
+          "end": 4.72,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/04/common/005.wav",
+      "status": "generated",
+      "bytes": 226604
+    },
+    {
+      "chapter": "04",
+      "segment": "common",
+      "line": 6,
+      "text": "几周后的小组实验，笑笑把椅子往前搬了一点。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "几周后的小组实验，笑笑把椅子往前搬了一点。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.629125,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/04/common/006.wav",
+      "status": "generated",
+      "bytes": 199724
+    },
+    {
+      "chapter": "04",
+      "segment": "common",
+      "line": 7,
+      "text": "没有谁特意招呼她，她也没有再把椅子收回去。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "没有谁特意招呼她，她也没有再把椅子收回去。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.5540416666666665,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/04/common/007.wav",
+      "status": "generated",
+      "bytes": 195884
+    },
+    {
+      "chapter": "06",
+      "segment": "intro",
+      "line": 0,
+      "text": "家长会散了，一位家长把成绩单推到你面前，手机屏幕还亮着。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "家长会散了，一位家长把成绩单推到你面前，手机屏幕还亮着。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 6.34,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/06/intro/000.wav",
+      "status": "generated",
+      "bytes": 349484
+    },
+    {
+      "chapter": "06",
+      "segment": "intro",
+      "line": 1,
+      "text": "“老师，我这个人说话直，您别介意。孩子交到您手里，总不能靠我们家长教吧？”",
+      "speaker": "家长",
+      "parts": [
+        {
+          "speaker": "家长",
+          "text": "“老师，我这个人说话直，您别介意。孩子交到您手里，总不能靠我们家长教吧？”",
+          "voice": "Cherry",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 7.12,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/06/intro/001.wav",
+      "status": "generated",
+      "bytes": 341804
+    },
+    {
+      "chapter": "06",
+      "segment": "intro",
+      "line": 2,
+      "text": "你翻开卷子，想说明孩子卡在哪一步。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你翻开卷子，想说明孩子卡在哪一步。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.8515,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/06/intro/002.wav",
+      "status": "generated",
+      "bytes": 157484
+    },
+    {
+      "chapter": "06",
+      "segment": "intro",
+      "line": 3,
+      "text": "“您先别讲这些专业的。隔壁班怎么就能考好？网上那个老师，一道题三十秒就讲明白了。”",
+      "speaker": "家长",
+      "parts": [
+        {
+          "speaker": "家长",
+          "text": "“您先别讲这些专业的。隔壁班怎么就能考好？网上那个老师，一道题三十秒就讲明白了。”",
+          "voice": "Cherry",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 8.24,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/06/intro/003.wav",
+      "status": "generated",
+      "bytes": 395564
+    },
+    {
+      "chapter": "06",
+      "segment": "intro",
+      "line": 4,
+      "text": "“这几道题主要是您孩子他条件没读全，可以先——”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“这几道题主要是您孩子他条件没读全，可以先——”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.6,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/06/intro/004.wav",
+      "status": "generated",
+      "bytes": 172844
+    },
+    {
+      "chapter": "06",
+      "segment": "intro",
+      "line": 5,
+      "text": "“那就多布置。可也别占孩子太多时间，他还要睡觉。最好当天就见效。”",
+      "speaker": "家长",
+      "parts": [
+        {
+          "speaker": "家长",
+          "text": "“那就多布置。可也别占孩子太多时间，他还要睡觉。最好当天就见效。”",
+          "voice": "Cherry",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 6.72,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/06/intro/005.wav",
+      "status": "generated",
+      "bytes": 322604
+    },
+    {
+      "chapter": "06",
+      "segment": "intro",
+      "line": 6,
+      "text": "你看着草稿纸发呆，思考应该如何应付这位家长。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你看着草稿纸发呆，思考应该如何应付这位家长。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.6185833333333335,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/06/intro/006.wav",
+      "status": "generated",
+      "bytes": 199724
+    },
+    {
+      "chapter": "06",
+      "segment": "intro",
+      "line": 7,
+      "text": "家长又把成绩单往前推了半寸。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "家长又把成绩单往前推了半寸。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.5737916666666667,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/06/intro/007.wav",
+      "status": "generated",
+      "bytes": 142124
+    },
+    {
+      "chapter": "06",
+      "segment": "intro",
+      "line": 8,
+      "text": "“我不是给您压力。我只是觉得，年轻老师嘛，应该多从自己身上找原因。别一有问题就说孩子。”",
+      "speaker": "家长",
+      "parts": [
+        {
+          "speaker": "家长",
+          "text": "“我不是给您压力。我只是觉得，年轻老师嘛，应该多从自己身上找原因。别一有问题就说孩子。”",
+          "voice": "Cherry",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 8.72,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/06/intro/008.wav",
+      "status": "generated",
+      "bytes": 418604
+    },
+    {
+      "chapter": "06",
+      "segment": "intro",
+      "line": 9,
+      "text": "她走后，你才发现自己一直攥着笔帽。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "她走后，你才发现自己一直攥着笔帽。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.9170416666666665,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/06/intro/009.wav",
+      "status": "generated",
+      "bytes": 161324
+    },
+    {
+      "chapter": "06",
+      "segment": "intro",
+      "line": 10,
+      "text": "张龙在门口听到了最后几句。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "张龙在门口听到了最后几句。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.018,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/06/intro/010.wav",
+      "status": "generated",
+      "bytes": 111404
+    },
+    {
+      "chapter": "06",
+      "segment": "intro",
+      "line": 11,
+      "text": "回到办公室后，他走了过来问你。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "回到办公室后，他走了过来问你。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.5799166666666666,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/06/intro/011.wav",
+      "status": "generated",
+      "bytes": 142124
+    },
+    {
+      "chapter": "06",
+      "segment": "intro",
+      "line": 12,
+      "text": "“说说你准备怎么调。”",
+      "speaker": "张龙",
+      "parts": [
+        {
+          "speaker": "张龙",
+          "text": "“说说你准备怎么调。”",
+          "voice": "Kai",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.08,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/06/intro/012.wav",
+      "status": "generated",
+      "bytes": 99884
+    },
+    {
+      "chapter": "06",
+      "segment": "A",
+      "line": 0,
+      "text": "你气不过，和办公室的几位老师告了那位家长的状。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你气不过，和办公室的几位老师告了那位家长的状。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.4130833333333332,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/06/A/000.wav",
+      "status": "generated",
+      "bytes": 188204
+    },
+    {
+      "chapter": "06",
+      "segment": "A",
+      "line": 1,
+      "text": "随后拿起手机准备给以前大学的兄弟发消息凑人开战。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "随后拿起手机准备给以前大学的兄弟发消息凑人开战。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 4.7876666666666665,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/06/A/001.wav",
+      "status": "generated",
+      "bytes": 265004
+    },
+    {
+      "chapter": "06",
+      "segment": "A",
+      "line": 2,
+      "text": "几位老师听到你说的话都笑了出来。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "几位老师听到你说的话都笑了出来。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.7651666666666666,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/06/A/002.wav",
+      "status": "generated",
+      "bytes": 153644
+    },
+    {
+      "chapter": "06",
+      "segment": "A",
+      "line": 3,
+      "text": "“你要学会适应，这样的家长有很多，你会慢慢学会怎么处理的，不要着急。”",
+      "speaker": "吴国平",
+      "parts": [
+        {
+          "speaker": "吴国平",
+          "text": "“你要学会适应，这样的家长有很多，你会慢慢学会怎么处理的，不要着急。”",
+          "voice": "qwen-tts-vc-wgp15s-voice-20260910145840113-a259",
+          "model": "qwen3-tts-vc-2026-01-22",
+          "start": 0.0,
+          "end": 6.16,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/06/A/003.wav",
+      "status": "generated",
+      "bytes": 295724
+    },
+    {
+      "chapter": "06",
+      "segment": "A",
+      "line": 4,
+      "text": "吴国平老师平静地说。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "吴国平老师平静地说。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.941,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/06/A/004.wav",
+      "status": "generated",
+      "bytes": 107564
+    },
+    {
+      "chapter": "06",
+      "segment": "B",
+      "line": 0,
+      "text": "你请学生记录几天作业用时，不要求写得漂亮，也不按谁睡得最晚表扬。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你请学生记录几天作业用时，不要求写得漂亮，也不按谁睡得最晚表扬。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 5.63125,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/06/B/000.wav",
+      "status": "generated",
+      "bytes": 311084
+    },
+    {
+      "chapter": "06",
+      "segment": "B",
+      "line": 1,
+      "text": "交上来的表差别很大。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "交上来的表差别很大。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.5438333333333334,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/06/B/001.wav",
+      "status": "generated",
+      "bytes": 84524
+    },
+    {
+      "chapter": "06",
+      "segment": "B",
+      "line": 2,
+      "text": "有人的时间耗在难题上，有人放学后还有别的事情，也有人一边写一边反复看手机。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "有人的时间耗在难题上，有人放学后还有别的事情，也有人一边写一边反复看手机。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 7.450208333333333,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/06/B/002.wav",
+      "status": "generated",
+      "bytes": 410924
+    },
+    {
+      "chapter": "06",
+      "segment": "B",
+      "line": 3,
+      "text": "你不能用同一种办法处理，于是分别约谈，再和家长调整安排。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你不能用同一种办法处理，于是分别约谈，再和家长调整安排。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 5.363625,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/06/B/003.wav",
+      "status": "generated",
+      "bytes": 295724
+    },
+    {
+      "chapter": "06",
+      "segment": "B",
+      "line": 4,
+      "text": "有些人改善得快，有些人还需要反复提醒。你把下一次检查的日期记在教案里。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "有些人改善得快，有些人还需要反复提醒。你把下一次检查的日期记在教案里。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 6.259333333333333,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/06/B/004.wav",
+      "status": "generated",
+      "bytes": 345644
+    },
+    {
+      "chapter": "06",
+      "segment": "C",
+      "line": 0,
+      "text": "你把几份练习摆上讲台：“有些作业题目岗位重复了，咱们来裁个员。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你把几份练习摆上讲台：",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.6695652173913045,
+          "speed": 1.15
+        },
+        {
+          "speaker": "你",
+          "text": "“有些作业题目岗位重复了，咱们来裁个员。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 1.6695652173913045,
+          "end": 4.951666666666667,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/06/C/000.wav",
+      "status": "generated",
+      "bytes": 249644
+    },
+    {
+      "chapter": "06",
+      "segment": "C",
+      "line": 1,
+      "text": "全班忽然精神起来。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "全班忽然精神起来。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.7395833333333333,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/06/C/001.wav",
+      "status": "generated",
+      "bytes": 96044
+    },
+    {
+      "chapter": "06",
+      "segment": "C",
+      "line": 2,
+      "text": "有人指着压轴题：“领导，这个我早就有意见了。”",
+      "speaker": "学生",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "有人指着压轴题：",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.3217391304347827,
+          "speed": 1.15
+        },
+        {
+          "speaker": "学生",
+          "text": "“领导，这个我早就有意见了。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 1.3217391304347827,
+          "end": 3.5507916666666666,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/06/C/002.wav",
+      "status": "generated",
+      "bytes": 180524
+    },
+    {
+      "chapter": "06",
+      "segment": "C",
+      "line": 3,
+      "text": "“请证明它和哪道题在做同一份工作。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“请证明它和哪道题在做同一份工作。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.56,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/06/C/003.wav",
+      "status": "generated",
+      "bytes": 122924
+    },
+    {
+      "chapter": "06",
+      "segment": "C",
+      "line": 4,
+      "text": "他找了半天，给压轴题留下了。另一组却发现两道题只是换了数字，讲清思路后，成功裁掉一道。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "他找了半天，给压轴题留下了。另一组却发现两道题只是换了数字，讲清思路后，成功裁掉一道。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 8.913666666666666,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/06/C/004.wav",
+      "status": "generated",
+      "bytes": 491564
+    },
+    {
+      "chapter": "06",
+      "segment": "C",
+      "line": 5,
+      "text": "最后删得不多，但每道留下的题都有了理由。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "最后删得不多，但每道留下的题都有了理由。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.6940416666666667,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/06/C/005.wav",
+      "status": "generated",
+      "bytes": 203564
+    },
+    {
+      "chapter": "06",
+      "segment": "C",
+      "line": 6,
+      "text": "课代表在黑板边写：“今日优化三题。”",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "课代表在黑板边写：“今日优化三题。”",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.6891666666666665,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/06/C/006.wav",
+      "status": "generated",
+      "bytes": 203564
+    },
+    {
+      "chapter": "06",
+      "segment": "C",
+      "line": 7,
+      "text": "你拍下调整后的清单给张龙，附上两周后检查的安排。这回手机亮起时，你没急着翻面扣住。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你拍下调整后的清单给张龙，附上两周后检查的安排。这回手机亮起时，你没急着翻面扣住。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 8.416666666666666,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/06/C/007.wav",
+      "status": "generated",
+      "bytes": 464684
+    },
+    {
+      "chapter": "06",
+      "segment": "common",
+      "line": 0,
+      "text": "几天后，你和徐进一起下楼。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "几天后，你和徐进一起下楼。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.298208333333333,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/06/common/000.wav",
+      "status": "generated",
+      "bytes": 126764
+    },
+    {
+      "chapter": "06",
+      "segment": "common",
+      "line": 1,
+      "text": "他夸赞你的处理方法不错，经过花坛时，他停了一下。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "他夸赞你的处理方法不错，经过花坛时，他停了一下。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 4.391125,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/06/common/001.wav",
+      "status": "generated",
+      "bytes": 241964
+    },
+    {
+      "chapter": "06",
+      "segment": "common",
+      "line": 2,
+      "text": "“栀子花开了，好香。”",
+      "speaker": "徐进",
+      "parts": [
+        {
+          "speaker": "徐进",
+          "text": "“栀子花开了，好香。”",
+          "voice": "qwen-tts-vc-xujing20sretry-voice-20260908235658462-634d",
+          "model": "qwen3-tts-vc-2026-01-22",
+          "start": 0.0,
+          "end": 2.24,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/06/common/002.wav",
+      "status": "generated",
+      "bytes": 107564
+    },
+    {
+      "chapter": "06",
+      "segment": "common",
+      "line": 3,
+      "text": "你顺着他看的方向望过去，叶子下面开着几朵白花。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你顺着他看的方向望过去，叶子下面开着几朵白花。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 4.321833333333333,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/06/common/003.wav",
+      "status": "generated",
+      "bytes": 238124
+    },
+    {
+      "chapter": "06",
+      "segment": "common",
+      "line": 4,
+      "text": "他又给你支了几招来应付那些家长，你默默记在了心里。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "他又给你支了几招来应付那些家长，你默默记在了心里。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 4.309166666666667,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/06/common/004.wav",
+      "status": "generated",
+      "bytes": 238124
+    },
+    {
+      "chapter": "08",
+      "segment": "intro",
+      "line": 0,
+      "text": "前一天，你备课到很晚。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "前一天，你备课到很晚。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.8764583333333333,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/08/intro/000.wav",
+      "status": "generated",
+      "bytes": 103724
+    },
+    {
+      "chapter": "08",
+      "segment": "intro",
+      "line": 1,
+      "text": "闹钟响时，你按掉了一次。再醒来，已经比平时晚了二十分钟。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "闹钟响时，你按掉了一次。再醒来，已经比平时晚了二十分钟。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 5.913208333333333,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/08/intro/001.wav",
+      "status": "generated",
+      "bytes": 326444
+    },
+    {
+      "chapter": "08",
+      "segment": "intro",
+      "line": 2,
+      "text": "孩子站在门口穿鞋，催了你好几遍。到校门时，人已经不多了。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "孩子站在门口穿鞋，催了你好几遍。到校门时，人已经不多了。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 5.146416666666667,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/08/intro/002.wav",
+      "status": "generated",
+      "bytes": 284204
+    },
+    {
+      "chapter": "08",
+      "segment": "intro",
+      "line": 3,
+      "text": "“我昨天就让你早点睡。”",
+      "speaker": "孩子",
+      "parts": [
+        {
+          "speaker": "孩子",
+          "text": "“我昨天就让你早点睡。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.44,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/08/intro/003.wav",
+      "status": "generated",
+      "bytes": 69164
+    },
+    {
+      "chapter": "08",
+      "segment": "intro",
+      "line": 4,
+      "text": "你想解释自己在忙什么，话到嘴边，又看了一眼时间。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你想解释自己在忙什么，话到嘴边，又看了一眼时间。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 4.1738333333333335,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/08/intro/004.wav",
+      "status": "generated",
+      "bytes": 230444
+    },
+    {
+      "chapter": "08",
+      "segment": "intro",
+      "line": 5,
+      "text": "孩子背着书包往里走，没再回头。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "孩子背着书包往里走，没再回头。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.9272916666666666,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/08/intro/005.wav",
+      "status": "generated",
+      "bytes": 161324
+    },
+    {
+      "chapter": "08",
+      "segment": "intro",
+      "line": 6,
+      "text": "等你赶到自己的学校，第一节课还没开始，心里那股急却没有散。你放下包，翻开教案，发现早上连水都没喝。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "等你赶到自己的学校，第一节课还没开始，心里那股急却没有散。你放下包，翻开教案，发现早上连水都没喝。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 9.112291666666666,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/08/intro/006.wav",
+      "status": "generated",
+      "bytes": 503084
+    },
+    {
+      "chapter": "08",
+      "segment": "intro",
+      "line": 7,
+      "text": "吴国平问你是不是不舒服。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "吴国平问你是不是不舒服。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.8904583333333334,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/08/intro/007.wav",
+      "status": "generated",
+      "bytes": 103724
+    },
+    {
+      "chapter": "08",
+      "segment": "intro",
+      "line": 8,
+      "text": "你说：“没事。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你说：",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 0.5565217391304348,
+          "speed": 1.15
+        },
+        {
+          "speaker": "你",
+          "text": "“没事。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.5565217391304348,
+          "end": 1.182875,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/08/intro/008.wav",
+      "status": "generated",
+      "bytes": 61484
+    },
+    {
+      "chapter": "08",
+      "segment": "intro",
+      "line": 9,
+      "text": "他说了声“好”，没有接着问，给你留了一点安静。",
+      "speaker": "吴国平",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "他说了声",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.0434782608695652,
+          "speed": 1.15
+        },
+        {
+          "speaker": "吴国平",
+          "text": "“好”",
+          "voice": "qwen-tts-vc-wgp15s-voice-20260910145840113-a259",
+          "model": "qwen3-tts-vc-2026-01-22",
+          "start": 1.0434782608695652,
+          "end": 1.5234782608695652,
+          "speed": 1.0
+        },
+        {
+          "speaker": "旁白",
+          "text": "，没有接着问，给你留了一点安静。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 1.5234782608695652,
+          "end": 4.076,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/08/intro/009.wav",
+      "status": "generated",
+      "bytes": 222764
+    },
+    {
+      "chapter": "08",
+      "segment": "intro",
+      "line": 10,
+      "text": "过了一会儿，你自己又开了口。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "过了一会儿，你自己又开了口。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.0911666666666666,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/08/intro/010.wav",
+      "status": "generated",
+      "bytes": 115244
+    },
+    {
+      "chapter": "08",
+      "segment": "A",
+      "line": 0,
+      "text": "你看着桌面上满满当当的安排，决定还是不能把自己完全交给工作。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你看着桌面上满满当当的安排，决定还是不能把自己完全交给工作。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 5.162375,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/08/A/000.wav",
+      "status": "generated",
+      "bytes": 284204
+    },
+    {
+      "chapter": "08",
+      "segment": "A",
+      "line": 1,
+      "text": "你用笔把一些不那么必要的安排删去，终于给自己空出了一个晚上的时间。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你用笔把一些不那么必要的安排删去，终于给自己空出了一个晚上的时间。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 5.627125,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/08/A/001.wav",
+      "status": "generated",
+      "bytes": 311084
+    },
+    {
+      "chapter": "08",
+      "segment": "A",
+      "line": 2,
+      "text": "你找到张龙，跟他说明理由请假。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你找到张龙，跟他说明理由请假。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.6485416666666666,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/08/A/002.wav",
+      "status": "generated",
+      "bytes": 145964
+    },
+    {
+      "chapter": "08",
+      "segment": "A",
+      "line": 3,
+      "text": "“偶尔给自己放松一下是对的，去陪陪家人孩子吧。”",
+      "speaker": "张龙",
+      "parts": [
+        {
+          "speaker": "张龙",
+          "text": "“偶尔给自己放松一下是对的，去陪陪家人孩子吧。”",
+          "voice": "Kai",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.76,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/08/A/003.wav",
+      "status": "generated",
+      "bytes": 180524
+    },
+    {
+      "chapter": "08",
+      "segment": "A",
+      "line": 4,
+      "text": "你道谢后回到办公桌前，给孩子发去了消息。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你道谢后回到办公桌前，给孩子发去了消息。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.8352083333333336,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/08/A/004.wav",
+      "status": "generated",
+      "bytes": 211244
+    },
+    {
+      "chapter": "08",
+      "segment": "A",
+      "line": 5,
+      "text": "“明天晚上带你去吃大餐！”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“明天晚上带你去吃大餐！”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.68,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/08/A/005.wav",
+      "status": "generated",
+      "bytes": 80684
+    },
+    {
+      "chapter": "08",
+      "segment": "B",
+      "line": 0,
+      "text": "你说到早上的迟到，才发现自己最在意的是孩子那句“我昨天就让你早点睡”。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你说到早上的迟到，才发现自己最在意的是孩子那句“我昨天就让你早点睡”。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 6.534125,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/08/B/000.wav",
+      "status": "generated",
+      "bytes": 361004
+    },
+    {
+      "chapter": "08",
+      "segment": "B",
+      "line": 1,
+      "text": "“我也没说他错，就是听着不舒服。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“我也没说他错，就是听着不舒服。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.56,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/08/B/001.wav",
+      "status": "generated",
+      "bytes": 122924
+    },
+    {
+      "chapter": "08",
+      "segment": "B",
+      "line": 2,
+      "text": "吴国平点了点头。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "吴国平点了点头。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.5402916666666666,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/08/B/002.wav",
+      "status": "generated",
+      "bytes": 84524
+    },
+    {
+      "chapter": "08",
+      "segment": "B",
+      "line": 3,
+      "text": "你们坐了一会儿，谈的都是这些年具体的事：晚上几点停笔，周末总被挪走的饭，已经答应却没能去的家长活动。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你们坐了一会儿，谈的都是这些年具体的事：晚上几点停笔，周末总被挪走的饭，已经答应却没能去的家长活动。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 9.388041666666666,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/08/B/003.wav",
+      "status": "generated",
+      "bytes": 518444
+    },
+    {
+      "chapter": "08",
+      "segment": "B",
+      "line": 4,
+      "text": "下午放学，你提前收好东西。接到孩子后，先为早上的迟到道了歉，没有紧跟着补一段自己多辛苦。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "下午放学，你提前收好东西。接到孩子后，先为早上的迟到道了歉，没有紧跟着补一段自己多辛苦。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 8.831666666666667,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/08/B/004.wav",
+      "status": "generated",
+      "bytes": 487724
+    },
+    {
+      "chapter": "08",
+      "segment": "C",
+      "line": 0,
+      "text": "你切回家里的聊天，打下：“本人今早赖床，导致同行人员迟到。申请放学提前到岗，戴罪接娃。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你切回家里的聊天，打下：",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.017391304347826,
+          "speed": 1.15
+        },
+        {
+          "speaker": "你",
+          "text": "“本人今早赖床，导致同行人员迟到。申请放学提前到岗，戴罪接娃。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 2.017391304347826,
+          "end": 8.497916666666667,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/08/C/000.wav",
+      "status": "generated",
+      "bytes": 422444
+    },
+    {
+      "chapter": "08",
+      "segment": "C",
+      "line": 1,
+      "text": "中午，孩子回了四个字：“下不为例。”",
+      "speaker": "孩子",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "中午，孩子回了四个字：",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.0869565217391304,
+          "speed": 1.15
+        },
+        {
+          "speaker": "孩子",
+          "text": "“下不为例。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 2.0869565217391304,
+          "end": 3.132,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/08/C/001.wav",
+      "status": "generated",
+      "bytes": 165164
+    },
+    {
+      "chapter": "08",
+      "segment": "C",
+      "line": 2,
+      "text": "你看着有点眼熟。想起来了，前天你刚这样说过他。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你看着有点眼熟。想起来了，前天你刚这样说过他。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 5.493375,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/08/C/002.wav",
+      "status": "generated",
+      "bytes": 303404
+    },
+    {
+      "chapter": "08",
+      "segment": "C",
+      "line": 3,
+      "text": "你又发：“放学想吃什么？”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你又发：",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.0434782608695652,
+          "speed": 1.15
+        },
+        {
+          "speaker": "你",
+          "text": "“放学想吃什么？”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 1.0434782608695652,
+          "end": 2.1634166666666665,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/08/C/003.wav",
+      "status": "generated",
+      "bytes": 111404
+    },
+    {
+      "chapter": "08",
+      "segment": "C",
+      "line": 4,
+      "text": "“先看表现。”",
+      "speaker": "孩子",
+      "parts": [
+        {
+          "speaker": "孩子",
+          "text": "“先看表现。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.04,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/08/C/004.wav",
+      "status": "generated",
+      "bytes": 49964
+    },
+    {
+      "chapter": "08",
+      "segment": "C",
+      "line": 5,
+      "text": "你把接孩子写进日程，设了提醒。剩下的备课分出轻重，不再全挤在今晚。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你把接孩子写进日程，设了提醒。剩下的备课分出轻重，不再全挤在今晚。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 6.688958333333333,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/08/C/005.wav",
+      "status": "generated",
+      "bytes": 368684
+    },
+    {
+      "chapter": "08",
+      "segment": "C",
+      "line": 6,
+      "text": "陈应打电话约周末吃饭，你看过时间，答应下来。放学前，手机响了：戴罪接娃。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "陈应打电话约周末吃饭，你看过时间，答应下来。放学前，手机响了：戴罪接娃。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 6.609916666666667,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/08/C/006.wav",
+      "status": "generated",
+      "bytes": 364844
+    },
+    {
+      "chapter": "08",
+      "segment": "C",
+      "line": 7,
+      "text": "吴国平看你起身：“今天走得挺准。”",
+      "speaker": "吴国平",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "吴国平看你起身：",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.4608695652173913,
+          "speed": 1.15
+        },
+        {
+          "speaker": "吴国平",
+          "text": "“今天走得挺准。”",
+          "voice": "qwen-tts-vc-wgp15s-voice-20260910145840113-a259",
+          "model": "qwen3-tts-vc-2026-01-22",
+          "start": 1.4608695652173913,
+          "end": 2.578291666666667,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/08/C/007.wav",
+      "status": "generated",
+      "bytes": 134444
+    },
+    {
+      "chapter": "08",
+      "segment": "C",
+      "line": 8,
+      "text": "“有人考核。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“有人考核。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 0.88,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/08/C/008.wav",
+      "status": "generated",
+      "bytes": 42284
+    },
+    {
+      "chapter": "08",
+      "segment": "common",
+      "line": 0,
+      "text": "整理桌面时，一张旧明信片从书里滑下来。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "整理桌面时，一张旧明信片从书里滑下来。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.9824166666666665,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/08/common/000.wav",
+      "status": "generated",
+      "bytes": 218924
+    },
+    {
+      "chapter": "08",
+      "segment": "common",
+      "line": 1,
+      "text": "是笑笑寄来的。她已经有了自己的生活，卡片上写着近况，也问你学校那间物理实验室有没有换新设备。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "是笑笑寄来的。她已经有了自己的生活，卡片上写着近况，也问你学校那间物理实验室有没有换新设备。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 8.972541666666666,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/08/common/001.wav",
+      "status": "generated",
+      "bytes": 495404
+    },
+    {
+      "chapter": "08",
+      "segment": "common",
+      "line": 2,
+      "text": "你读完，先把明信片放好。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你读完，先把明信片放好。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.156083333333333,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/08/common/002.wav",
+      "status": "generated",
+      "bytes": 119084
+    },
+    {
+      "chapter": "08",
+      "segment": "common",
+      "line": 3,
+      "text": "接着合上教案，拿起外套。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "接着合上教案，拿起外套。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.6555416666666667,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/08/common/003.wav",
+      "status": "generated",
+      "bytes": 145964
+    },
+    {
+      "chapter": "09",
+      "segment": "intro",
+      "line": 0,
+      "text": "退休前的最后一节课，你照常提前到了教室。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "退休前的最后一节课，你照常提前到了教室。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 4.60475,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/09/intro/000.wav",
+      "status": "generated",
+      "bytes": 253484
+    },
+    {
+      "chapter": "09",
+      "segment": "intro",
+      "line": 1,
+      "text": "讲台上的设备换过几次，粉笔盒却还放在差不多的位置。你拿出一支，试了试，能写。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "讲台上的设备换过几次，粉笔盒却还放在差不多的位置。你拿出一支，试了试，能写。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 7.860541666666666,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/09/intro/001.wav",
+      "status": "generated",
+      "bytes": 433964
+    },
+    {
+      "chapter": "09",
+      "segment": "intro",
+      "line": 2,
+      "text": "学生问今天还讲不讲题。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "学生问今天还讲不讲题。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.0797083333333335,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/09/intro/002.wav",
+      "status": "generated",
+      "bytes": 115244
+    },
+    {
+      "chapter": "09",
+      "segment": "intro",
+      "line": 3,
+      "text": "“讲完这一道。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“讲完这一道。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 0.88,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/09/intro/003.wav",
+      "status": "generated",
+      "bytes": 42284
+    },
+    {
+      "chapter": "09",
+      "segment": "intro",
+      "line": 4,
+      "text": "黑板上仍然是熟悉的受力图。你写到最后一步，有人提醒少了一个符号。你回头看了一眼，把它补上。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "黑板上仍然是熟悉的受力图。你写到最后一步，有人提醒少了一个符号。你回头看了一眼，把它补上。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 8.42025,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/09/intro/004.wav",
+      "status": "generated",
+      "bytes": 464684
+    },
+    {
+      "chapter": "09",
+      "segment": "intro",
+      "line": 5,
+      "text": "后排有人笑，你也笑了。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "后排有人笑，你也笑了。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.163125,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/09/intro/005.wav",
+      "status": "generated",
+      "bytes": 119084
+    },
+    {
+      "chapter": "09",
+      "segment": "intro",
+      "line": 6,
+      "text": "下课铃响时，没人马上起身。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "下课铃响时，没人马上起身。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.06425,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/09/intro/006.wav",
+      "status": "generated",
+      "bytes": 169004
+    },
+    {
+      "chapter": "09",
+      "segment": "intro",
+      "line": 7,
+      "text": "“老师，以后回来还能找到您吗？”",
+      "speaker": "学生",
+      "parts": [
+        {
+          "speaker": "学生",
+          "text": "“老师，以后回来还能找到您吗？”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.32,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/09/intro/007.wav",
+      "status": "generated",
+      "bytes": 111404
+    },
+    {
+      "chapter": "09",
+      "segment": "intro",
+      "line": 8,
+      "text": "你放下粉笔，看着他们。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你放下粉笔，看着他们。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.9542083333333333,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/09/intro/008.wav",
+      "status": "generated",
+      "bytes": 107564
+    },
+    {
+      "chapter": "09",
+      "segment": "A",
+      "line": 0,
+      "text": "“可以给我发消息，我还是很愿意被你们骚扰的。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“可以给我发消息，我还是很愿意被你们骚扰的。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.2,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/09/A/000.wav",
+      "status": "generated",
+      "bytes": 153644
+    },
+    {
+      "chapter": "09",
+      "segment": "A",
+      "line": 1,
+      "text": "有人立刻翻本子记下来。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "有人立刻翻本子记下来。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.6831666666666667,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/09/A/001.wav",
+      "status": "generated",
+      "bytes": 92204
+    },
+    {
+      "chapter": "09",
+      "segment": "A",
+      "line": 2,
+      "text": "你等他们记完，才收起教案。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你等他们记完，才收起教案。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.9525833333333333,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/09/A/002.wav",
+      "status": "generated",
+      "bytes": 107564
+    },
+    {
+      "chapter": "09",
+      "segment": "A",
+      "line": 3,
+      "text": "走出教室时，你听见里面有人说：“别只存着，回头真要联系。”",
+      "speaker": "学生",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "走出教室时，你听见里面有人说：",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.9217391304347826,
+          "speed": 1.15
+        },
+        {
+          "speaker": "学生",
+          "text": "“别只存着，回头真要联系。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 2.9217391304347826,
+          "end": 5.152291666666667,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/09/A/003.wav",
+      "status": "generated",
+      "bytes": 268844
+    },
+    {
+      "chapter": "09",
+      "segment": "B",
+      "line": 0,
+      "text": "你打开一体机的拍照功能，招呼着全班同学聚集起来，你最后一次站到了同学们旁边。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你打开一体机的拍照功能，招呼着全班同学聚集起来，你最后一次站到了同学们旁边。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 7.097375,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/09/B/000.wav",
+      "status": "generated",
+      "bytes": 391724
+    },
+    {
+      "chapter": "09",
+      "segment": "B",
+      "line": 1,
+      "text": "随着快门音的消散，你知道“老师”这条路就走到这里了。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "随着快门音的消散，你知道“老师”这条路就走到这里了。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 4.797291666666666,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/09/B/001.wav",
+      "status": "generated",
+      "bytes": 265004
+    },
+    {
+      "chapter": "09",
+      "segment": "B",
+      "line": 2,
+      "text": "你转过身去，背着同学们把眼泪收起。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你转过身去，背着同学们把眼泪收起。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.1376666666666666,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/09/B/002.wav",
+      "status": "generated",
+      "bytes": 172844
+    },
+    {
+      "chapter": "09",
+      "segment": "B",
+      "line": 3,
+      "text": "挥起粉笔在黑板上写下了一句“栀子花开了，好香。”",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "挥起粉笔在黑板上写下了一句“栀子花开了，好香。”",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 5.424166666666666,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/09/B/003.wav",
+      "status": "generated",
+      "bytes": 299564
+    },
+    {
+      "chapter": "09",
+      "segment": "B",
+      "line": 4,
+      "text": "随后潇洒地离开了教室。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "随后潇洒地离开了教室。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.8605833333333333,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/09/B/004.wav",
+      "status": "generated",
+      "bytes": 103724
+    },
+    {
+      "chapter": "09",
+      "segment": "C",
+      "line": 0,
+      "text": "“报了个声乐班。以后我也坐下面。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“报了个声乐班。以后我也坐下面。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.4,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/09/C/000.wav",
+      "status": "generated",
+      "bytes": 115244
+    },
+    {
+      "chapter": "09",
+      "segment": "C",
+      "line": 1,
+      "text": "学生立刻来了兴趣：“老师，先唱一句！”",
+      "speaker": "学生",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "学生立刻来了兴趣：",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.6,
+          "speed": 1.15
+        },
+        {
+          "speaker": "学生",
+          "text": "“老师，先唱一句！”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 1.6,
+          "end": 3.0380833333333332,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/09/C/001.wav",
+      "status": "generated",
+      "bytes": 157484
+    },
+    {
+      "chapter": "09",
+      "segment": "C",
+      "line": 2,
+      "text": "你认真起了个头，前排有只手条件反射地捂住了耳朵，又赶紧放下。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你认真起了个头，前排有只手条件反射地捂住了耳朵，又赶紧放下。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 6.126791666666667,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/09/C/002.wav",
+      "status": "generated",
+      "bytes": 337964
+    },
+    {
+      "chapter": "09",
+      "segment": "C",
+      "line": 3,
+      "text": "“没事。”你说，“这就是我报名的原因。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“没事。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 0.64,
+          "speed": 1.0
+        },
+        {
+          "speaker": "旁白",
+          "text": "你说，",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.64,
+          "end": 1.1269565217391304,
+          "speed": 1.15
+        },
+        {
+          "speaker": "你",
+          "text": "“这就是我报名的原因。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 1.1269565217391304,
+          "end": 2.650333333333333,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/09/C/003.wav",
+      "status": "generated",
+      "bytes": 130604
+    },
+    {
+      "chapter": "09",
+      "segment": "C",
+      "line": 4,
+      "text": "后排问：“您的声乐老师知道基础吗？”",
+      "speaker": "学生",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "后排问：",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 0.6956521739130436,
+          "speed": 1.15
+        },
+        {
+          "speaker": "学生",
+          "text": "“您的声乐老师知道基础吗？”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.6956521739130436,
+          "end": 2.30075,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/09/C/004.wav",
+      "status": "generated",
+      "bytes": 115244
+    },
+    {
+      "chapter": "09",
+      "segment": "C",
+      "line": 5,
+      "text": "“交钱以前，他说零基础也欢迎。”",
+      "speaker": "你",
+      "parts": [
+        {
+          "speaker": "你",
+          "text": "“交钱以前，他说零基础也欢迎。”",
+          "voice": "Ethan",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 2.4,
+          "speed": 1.0
+        }
+      ],
+      "path": "/public/audio/09/C/005.wav",
+      "status": "generated",
+      "bytes": 115244
+    },
+    {
+      "chapter": "09",
+      "segment": "C",
+      "line": 6,
+      "text": "笑声里，有人提醒你按时练习，有人说要来检查作业。你把课程时间存进手机，第一次盼着开学时可以站在讲台上。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "笑声里，有人提醒你按时练习，有人说要来检查作业。你把课程时间存进手机，第一次盼着开学时可以站在讲台上。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 10.995875,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/09/C/006.wav",
+      "status": "generated",
+      "bytes": 606764
+    },
+    {
+      "chapter": "00",
+      "segment": "opening",
+      "line": 0,
+      "text": "你，22 岁。新手高中物理老师。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "你，22 岁。新手高中物理老师。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 3.8309166666666665,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/opening/000.wav",
+      "status": "generated",
+      "bytes": 211244
+    },
+    {
+      "chapter": "00",
+      "segment": "opening",
+      "line": 1,
+      "text": "这是你的师傅，陈应。",
+      "speaker": "旁白",
+      "parts": [
+        {
+          "speaker": "旁白",
+          "text": "这是你的师傅，陈应。",
+          "voice": "Chelsie",
+          "model": "qwen3-tts-flash",
+          "start": 0.0,
+          "end": 1.5922916666666667,
+          "speed": 1.15
+        }
+      ],
+      "path": "/public/audio/opening/001.wav",
+      "status": "generated",
+      "bytes": 88364
+    }
+  ],
+  "narrator_speed": 1.15
+}

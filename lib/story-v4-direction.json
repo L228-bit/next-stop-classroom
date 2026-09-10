@@ -1,0 +1,1703 @@
+{
+  "01": {
+    "intro": [
+      {
+        "textStart": "陈应在批作业，眉头拧着，红笔把一个答",
+        "scene": "bg01",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "你拿着课本和教参站在门口，手里还攥着",
+        "scene": "bg01",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“新来的物理老师？坐这儿，准备一下等",
+        "scene": "bg01",
+        "cast": [
+          "陈应"
+        ],
+        "speaker": "陈应"
+      },
+      {
+        "textStart": "你愣了一下，随即反应过来：“没问题！",
+        "scene": "bg01",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "备课时，一道例题的讲解把你卡住。你拿",
+        "scene": "bg01",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "陈应抬头：“书烫手？”",
+        "scene": "bg01",
+        "cast": [
+          "陈应"
+        ],
+        "speaker": "陈应"
+      }
+    ],
+    "A": [
+      {
+        "textStart": "“陈老师，这题我会算，但是不知道怎么",
+        "scene": "bg01",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "他把旁边椅子腾出来：“坐。你先讲给我",
+        "scene": "bg01",
+        "cast": [
+          "陈应"
+        ],
+        "speaker": "陈应"
+      },
+      {
+        "textStart": "你越讲越快，他伸手按住草稿纸。",
+        "scene": "bg01",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“慢点，你急啥。”",
+        "scene": "bg01",
+        "cast": [
+          "陈应"
+        ],
+        "speaker": "陈应"
+      },
+      {
+        "textStart": "他换了两种讲法，又让你试了一遍。预备",
+        "scene": "bg01",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“中午接着看，下午再给我讲一遍。”",
+        "scene": "bg01",
+        "cast": [
+          "陈应"
+        ],
+        "speaker": "陈应"
+      },
+      {
+        "textStart": "你连忙给他空着的水杯接上水。这回总算",
+        "scene": "bg01",
+        "cast": [],
+        "speaker": "旁白"
+      }
+    ],
+    "B": [
+      {
+        "textStart": "你在最后一排坐得笔直。",
+        "scene": "bg02",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "学生画错受力图，陈应走过去：“先别擦",
+        "scene": "bg02",
+        "cast": [
+          "陈应"
+        ],
+        "speaker": "陈应"
+      },
+      {
+        "textStart": "你的橡皮也停了。",
+        "scene": "bg02",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "他画了个简单例子，等学生想明白，才继",
+        "scene": "bg02",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "下课时，你的笔记写了两页，问号占半页",
+        "scene": "bg02",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "陈应看了一眼：“刚才怎么不问？”",
+        "scene": "bg02",
+        "cast": [
+          "陈应"
+        ],
+        "speaker": "陈应"
+      },
+      {
+        "textStart": "“怕耽误您上课。”",
+        "scene": "bg02",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "“有问题直接问，想那么多干啥。”",
+        "scene": "bg02",
+        "cast": [
+          "陈应"
+        ],
+        "speaker": "陈应"
+      },
+      {
+        "textStart": "他把粉笔递给你，陪你重新走了一遍。",
+        "scene": "bg02",
+        "cast": [],
+        "speaker": "旁白"
+      }
+    ],
+    "C": [
+      {
+        "textStart": "“陈老师平时……好说话吗？”",
+        "scene": "bg03",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "吴国平抬头：“应仔只是看着比较凶……",
+        "scene": "bg03",
+        "cast": [
+          "吴国平"
+        ],
+        "speaker": "吴国平"
+      },
+      {
+        "textStart": "徐进正要接话，陈应推门进来：“你过来",
+        "scene": "bg03",
+        "cast": [
+          "陈应"
+        ],
+        "speaker": "陈应"
+      },
+      {
+        "textStart": "你忐忑地走了过去。",
+        "scene": "bg03",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "他递来一份旧教案，难点都做了标记。",
+        "scene": "bg03",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“看你翻了一上午。拿去，有问题来问。",
+        "scene": "bg03",
+        "cast": [
+          "陈应"
+        ],
+        "speaker": "陈应"
+      }
+    ],
+    "common": [
+      {
+        "textStart": "下午，陈应带你熟悉教学楼。经过徐进的",
+        "scene": "bg04",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“愿意跟随徐老师学语文的请举手。”",
+        "scene": "bg04",
+        "cast": [
+          "徐进"
+        ],
+        "speaker": "徐进"
+      },
+      {
+        "textStart": "你差点也举了，幸好手里还抱着物理书。",
+        "scene": "bg04",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "离校时，陈应喊住了你。",
+        "scene": "bg16",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“明天记得帮我带根玉米，我喜欢吃玉米",
+        "scene": "bg16",
+        "cast": [
+          "陈应"
+        ],
+        "speaker": "陈应"
+      },
+      {
+        "textStart": "你在手机里记下：第一节课，玉米。",
+        "scene": "bg16",
+        "cast": [],
+        "speaker": "旁白"
+      }
+    ]
+  },
+  "02": {
+    "intro": [
+      {
+        "textStart": "你刚讲完两节课，水还没喝上，一个学生",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“老师，这道题我没懂，您能帮我讲一下",
+        "scene": "bg05",
+        "cast": [
+          "学生"
+        ],
+        "speaker": "学生"
+      },
+      {
+        "textStart": "你接过了练习册开始浏览，题目的前半部",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "学生站在桌边，等着。",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "你把题目又读了一遍。",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“老师？”",
+        "scene": "bg05",
+        "cast": [
+          "学生"
+        ],
+        "speaker": "学生"
+      },
+      {
+        "textStart": "“嗯，我看看。”",
+        "scene": "bg05",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "办公室的钟走了一格。你忽然发现，“我",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      }
+    ],
+    "A": [
+      {
+        "textStart": "“我有点忙，你先自己查一下解析。”",
+        "scene": "bg05",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "学生把练习册和手机拿过去，低头搜题目",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "抄到中间，他的笔停了。",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“老师，这一步为什么这样列？”",
+        "scene": "bg05",
+        "cast": [
+          "学生"
+        ],
+        "speaker": "学生"
+      },
+      {
+        "textStart": "你把杯子放下，又把本子往两人中间挪了",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "这一次，你们没有接着往下抄。你顺着师",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "上课铃响时，他还剩最后两行没写。",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“本子先放我这儿，下课我们把这里讲完",
+        "scene": "bg05",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "他点点头，把笔夹进练习册里，先回了教",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      }
+    ],
+    "B": [
+      {
+        "textStart": "你拿起笔，在草稿纸上画了一张受力图。",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“你前面是怎么想的？”",
+        "scene": "bg05",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "学生指给你看。你点点头，又把题目从头",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "距离上课还有一分钟。",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "你把已经写过的条件重新圈了一遍。学生",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "终于，上课铃响了。",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“你先去上课，这道题下课再来。”",
+        "scene": "bg05",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "他应了一声，把书留下跑了出去。",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "办公室安静下来。你把练习册拉到面前，",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "这节你没有课。你重新分析题干，把几个",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "下课后，学生如约回来。",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "这次你讲得顺了。他听完，把本子合上：",
+        "scene": "bg05",
+        "cast": [
+          "学生"
+        ],
+        "speaker": "学生"
+      },
+      {
+        "textStart": "你送他到门口，回来时看见桌上的水杯—",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      }
+    ],
+    "C": [
+      {
+        "textStart": "“最后这一问，我现在也没想明白。你先",
+        "scene": "bg05",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "学生有些意外，随后把自己的草稿也放到",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“我是从这里开始算不下去的。”",
+        "scene": "bg05",
+        "cast": [
+          "学生"
+        ],
+        "speaker": "学生"
+      },
+      {
+        "textStart": "你让他坐下。两个人各画了一张受力图，",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "你们共同讨论这题目的解法，刚才没有头",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "你们把运动过程重新分段，接着往下算。",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“谢谢老师，我懂了！”",
+        "scene": "bg05",
+        "cast": [
+          "学生"
+        ],
+        "speaker": "学生"
+      },
+      {
+        "textStart": "他把两张草稿叠好，问能不能一起拿走。",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      }
+    ],
+    "common": [
+      {
+        "textStart": "午间整理桌面时，你把这道题记进了备课",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "题目旁边多了几行字：学生从哪里开始不",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "走廊里又有人叫“老师”。",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "你抬起头，看见另一个学生站在门口，手",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      }
+    ]
+  },
+  "03": {
+    "intro": [
+      {
+        "textStart": "你在讲一道考试的压轴题。",
+        "scene": "bg06",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "黑板上画着题图的受力分析，你正在讲解",
+        "scene": "bg06",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "后排有个学生举起手。",
+        "scene": "bg06",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“老师，我觉得这个地方不是这样的，应",
+        "scene": "bg06",
+        "cast": [
+          "学生"
+        ],
+        "speaker": "学生"
+      },
+      {
+        "textStart": "你认真地听他把自己的想法讲完。",
+        "scene": "bg06",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "他以为你没有明白，把话说得更直接了一",
+        "scene": "bg06",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“老师您是不是这个摩擦力画错了？”",
+        "scene": "bg06",
+        "cast": [
+          "学生"
+        ],
+        "speaker": "学生"
+      },
+      {
+        "textStart": "你回想刚刚讲题的过程，再看看黑板上写",
+        "scene": "bg06",
+        "cast": [],
+        "speaker": "旁白"
+      }
+    ],
+    "A": [
+      {
+        "textStart": "“你愿意上来把摩擦力画一下吗？”",
+        "scene": "bg06",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "他先看了看旁边的同学，才走上来。",
+        "scene": "bg06",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "他画好摩擦力，讲出了错误的点。",
+        "scene": "bg06",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "你满意地点了点头，说道：“诶，这个同",
+        "scene": "bg06",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "看着黑板上正确的图示，你长舒了一口气",
+        "scene": "bg06",
+        "cast": [],
+        "speaker": "旁白"
+      }
+    ],
+    "B": [
+      {
+        "textStart": "你轻咳了一下，看了看那位同学。",
+        "scene": "bg06",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“呃是这样的，这个同学说的是对的啊，",
+        "scene": "bg06",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "你硬着头皮把题目讲完了，讲完之后你想",
+        "scene": "bg06",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“这个题目出得不好啊，这套题不严谨，",
+        "scene": "bg06",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "说完下课铃响了，你迅速喊了下课离开教",
+        "scene": "bg06",
+        "cast": [],
+        "speaker": "旁白"
+      }
+    ],
+    "C": [
+      {
+        "textStart": "你用粉笔轻敲讲台：“现在审理摩擦力方",
+        "scene": "bg06",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "刚才举手的学生立刻坐直：“我有证据！",
+        "scene": "bg06",
+        "cast": [
+          "学生"
+        ],
+        "speaker": "学生"
+      },
+      {
+        "textStart": "你请他画出正确图解，再让另一位同学指",
+        "scene": "bg06",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "有人替摩擦力辩护：“它不是故意往右的",
+        "scene": "bg06",
+        "cast": [
+          "学生"
+        ],
+        "speaker": "学生"
+      },
+      {
+        "textStart": "笑声里，你补全两幅图的条件，让全班重",
+        "scene": "bg06",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "后排问：“老师，判几年？”",
+        "scene": "bg06",
+        "cast": [
+          "学生"
+        ],
+        "speaker": "学生"
+      },
+      {
+        "textStart": "“判你把‘相对谁’写完整。”",
+        "scene": "bg06",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "他低头补了三个字，又举手：“报告，已",
+        "scene": "bg06",
+        "cast": [
+          "学生"
+        ],
+        "speaker": "学生"
+      }
+    ],
+    "common": [
+      {
+        "textStart": "课后，陈应看了你的课堂记录。",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "你说，学生当场问得那么直接，自己确实",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“同学们会不会觉得我水平不行。”",
+        "scene": "bg05",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "陈应把记录翻回那一页。",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“是骡子是马溜溜溜就知道了。”",
+        "scene": "bg05",
+        "cast": [
+          "陈应"
+        ],
+        "speaker": "陈应"
+      },
+      {
+        "textStart": "他指了指你写下的问题。",
+        "scene": "bg05",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“问得出来，总比带着疑问下课好。”",
+        "scene": "bg05",
+        "cast": [
+          "陈应"
+        ],
+        "speaker": "陈应"
+      },
+      {
+        "textStart": "第二天，你进教室时，那位学生又举手叫",
+        "scene": "bg06",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "这一次你没有先紧张。",
+        "scene": "bg06",
+        "cast": [],
+        "speaker": "旁白"
+      }
+    ]
+  },
+  "04": {
+    "intro": [
+      {
+        "textStart": "笑笑第三次在上课铃响之后才进门。",
+        "scene": "bg07",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "她站在门口，懒散地说了声“报告”，一",
+        "scene": "bg07",
+        "cast": [
+          "笑笑"
+        ],
+        "speaker": "笑笑"
+      },
+      {
+        "textStart": "你让她先进来。",
+        "scene": "bg07",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "讲到一半，她又趴下了。",
+        "scene": "bg07",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "窗边的人在记笔记，她的笔停在纸上，留",
+        "scene": "bg07",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "你走下讲台，在她桌边停住。",
+        "scene": "bg07",
+        "cast": [],
+        "speaker": "旁白"
+      }
+    ],
+    "A": [
+      {
+        "textStart": "你敲了两下桌面。",
+        "scene": "bg07",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "笑笑抬起头，先看黑板，又低头找书。",
+        "scene": "bg07",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“来，这道题你来回答一下。”",
+        "scene": "bg07",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "于是在全班的哄笑声中，她站了起来。",
+        "scene": "bg07",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "她低着头站在那里，你也知道她回答不上",
+        "scene": "bg07",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "后面半节课她没有再睡觉，而是默默地听",
+        "scene": "bg07",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "下课后，她走到了你的办公桌旁边。",
+        "scene": "bg08",
+        "cast": [],
+        "speaker": "旁白"
+      }
+    ],
+    "B": [
+      {
+        "textStart": "你把她拍醒，指了指讲台边上的位置。",
+        "scene": "bg07",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“以后你坐讲台旁边，VIP位。”",
+        "scene": "bg07",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "“老师，这位置太贵了。”",
+        "scene": "bg07",
+        "cast": [
+          "笑笑"
+        ],
+        "speaker": "笑笑"
+      },
+      {
+        "textStart": "笑笑一脸赔笑地看着你。",
+        "scene": "bg07",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“免费，但不能再睡。”",
+        "scene": "bg07",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "下课后，她抱着书包挪到前面，同桌冲她",
+        "scene": "bg07",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "她换好座位之后来到了你的办公桌边。",
+        "scene": "bg08",
+        "cast": [],
+        "speaker": "旁白"
+      }
+    ],
+    "C": [
+      {
+        "textStart": "你轻声叫醒她，让她先坐好。",
+        "scene": "bg07",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“下课后来办公室找我。”",
+        "scene": "bg07",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "她下课后准时来到了你的办公桌旁边。",
+        "scene": "bg08",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "你拿出了你珍藏的零食，给她搬了个座位",
+        "scene": "bg08",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "你靠在椅子上，示意她也坐下。",
+        "scene": "bg08",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“来吧，跟我讲讲你什么情况。”",
+        "scene": "bg08",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      }
+    ],
+    "common": [
+      {
+        "textStart": "后来你知道，接送和照看妹妹并不是她一",
+        "scene": "bg08",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "你和她商量补交顺序，需要协调的部分再",
+        "scene": "bg08",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "有一回，你在走廊遇见吴国平，他手里拿",
+        "scene": "bg04",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“笑笑最近怎么样？”",
+        "scene": "bg04",
+        "cast": [
+          "吴国平"
+        ],
+        "speaker": "吴国平"
+      },
+      {
+        "textStart": "“开始补了，还不太稳。”",
+        "scene": "bg04",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "“慢慢看。作业量这边我们对一下，给她",
+        "scene": "bg04",
+        "cast": [
+          "吴国平"
+        ],
+        "speaker": "吴国平"
+      },
+      {
+        "textStart": "几周后的小组实验，笑笑把椅子往前搬了",
+        "scene": "bg09",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "没有谁特意招呼她，她也没有再把椅子收",
+        "scene": "bg09",
+        "cast": [],
+        "speaker": "旁白"
+      }
+    ]
+  },
+  "06": {
+    "intro": [
+      {
+        "textStart": "家长会散了，一位家长把成绩单推到你面",
+        "scene": "bg13",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“老师，我这个人说话直，您别介意。孩",
+        "scene": "bg13",
+        "cast": [
+          "家长"
+        ],
+        "speaker": "家长"
+      },
+      {
+        "textStart": "你翻开卷子，想说明孩子卡在哪一步。",
+        "scene": "bg13",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“您先别讲这些专业的。隔壁班怎么就能",
+        "scene": "bg13",
+        "cast": [
+          "家长"
+        ],
+        "speaker": "家长"
+      },
+      {
+        "textStart": "“这几道题主要是您孩子他条件没读全，",
+        "scene": "bg13",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "“那就多布置。可也别占孩子太多时间，",
+        "scene": "bg13",
+        "cast": [
+          "家长"
+        ],
+        "speaker": "家长"
+      },
+      {
+        "textStart": "你看着草稿纸发呆，思考应该如何应付这",
+        "scene": "bg13",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "家长又把成绩单往前推了半寸。",
+        "scene": "bg13",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“我不是给您压力。我只是觉得，年轻老",
+        "scene": "bg13",
+        "cast": [
+          "家长"
+        ],
+        "speaker": "家长"
+      },
+      {
+        "textStart": "她走后，你才发现自己一直攥着笔帽。",
+        "scene": "bg14",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "张龙在门口听到了最后几句。",
+        "scene": "bg14",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "回到办公室后，他走了过来问你。",
+        "scene": "bg14",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“说说你准备怎么调。”",
+        "scene": "bg14",
+        "cast": [
+          "张龙"
+        ],
+        "speaker": "张龙"
+      }
+    ],
+    "A": [
+      {
+        "textStart": "你气不过，和办公室的几位老师告了那位",
+        "scene": "bg14",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "随后拿起手机准备给以前大学的兄弟发消",
+        "scene": "bg14",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "几位老师听到你说的话都笑了出来。",
+        "scene": "bg14",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“你要学会适应，这样的家长有很多，你",
+        "scene": "bg14",
+        "cast": [
+          "吴国平"
+        ],
+        "speaker": "吴国平"
+      },
+      {
+        "textStart": "吴国平老师平静地说。",
+        "scene": "bg14",
+        "cast": [],
+        "speaker": "旁白"
+      }
+    ],
+    "B": [
+      {
+        "textStart": "你请学生记录几天作业用时，不要求写得",
+        "scene": "bg15",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "交上来的表差别很大。",
+        "scene": "bg15",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "有人的时间耗在难题上，有人放学后还有",
+        "scene": "bg15",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "你不能用同一种办法处理，于是分别约谈",
+        "scene": "bg15",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "有些人改善得快，有些人还需要反复提醒",
+        "scene": "bg15",
+        "cast": [],
+        "speaker": "旁白"
+      }
+    ],
+    "C": [
+      {
+        "textStart": "你把几份练习摆上讲台：“有些作业题目",
+        "scene": "bg15",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "全班忽然精神起来。",
+        "scene": "bg15",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "有人指着压轴题：“领导，这个我早就有",
+        "scene": "bg15",
+        "cast": [
+          "学生"
+        ],
+        "speaker": "学生"
+      },
+      {
+        "textStart": "“请证明它和哪道题在做同一份工作。”",
+        "scene": "bg15",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "他找了半天，给压轴题留下了。另一组却",
+        "scene": "bg15",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "最后删得不多，但每道留下的题都有了理",
+        "scene": "bg15",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "课代表在黑板边写：“今日优化三题。”",
+        "scene": "bg15",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "你拍下调整后的清单给张龙，附上两周后",
+        "scene": "bg15",
+        "cast": [],
+        "speaker": "旁白"
+      }
+    ],
+    "common": [
+      {
+        "textStart": "几天后，你和徐进一起下楼。",
+        "scene": "bg16",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "他夸赞你的处理方法不错，经过花坛时，",
+        "scene": "bg16",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“栀子花开了，好香。”",
+        "scene": "bg16",
+        "cast": [
+          "徐进"
+        ],
+        "speaker": "徐进"
+      },
+      {
+        "textStart": "你顺着他看的方向望过去，叶子下面开着",
+        "scene": "bg16",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "他又给你支了几招来应付那些家长，你默",
+        "scene": "bg16",
+        "cast": [],
+        "speaker": "旁白"
+      }
+    ]
+  },
+  "08": {
+    "intro": [
+      {
+        "textStart": "前一天，你备课到很晚。",
+        "scene": "bg18",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "闹钟响时，你按掉了一次。再醒来，已经",
+        "scene": "bg18",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "孩子站在门口穿鞋，催了你好几遍。到校",
+        "scene": "bg18",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“我昨天就让你早点睡。”",
+        "scene": "bg18",
+        "cast": [
+          "孩子"
+        ],
+        "speaker": "孩子"
+      },
+      {
+        "textStart": "你想解释自己在忙什么，话到嘴边，又看",
+        "scene": "bg18",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "孩子背着书包往里走，没再回头。",
+        "scene": "bg18",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "等你赶到自己的学校，第一节课还没开始",
+        "scene": "bg19",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "吴国平问你是不是不舒服。",
+        "scene": "bg19",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "你说：“没事。”",
+        "scene": "bg19",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "他说了声“好”，没有接着问，给你留了",
+        "scene": "bg19",
+        "cast": [
+          "吴国平"
+        ],
+        "speaker": "吴国平"
+      },
+      {
+        "textStart": "过了一会儿，你自己又开了口。",
+        "scene": "bg19",
+        "cast": [],
+        "speaker": "旁白"
+      }
+    ],
+    "A": [
+      {
+        "textStart": "你看着桌面上满满当当的安排，决定还是",
+        "scene": "bg19",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "你用笔把一些不那么必要的安排删去，终",
+        "scene": "bg19",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "你找到张龙，跟他说明理由请假。",
+        "scene": "bg19",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“偶尔给自己放松一下是对的，去陪陪家",
+        "scene": "bg19",
+        "cast": [
+          "张龙"
+        ],
+        "speaker": "张龙"
+      },
+      {
+        "textStart": "你道谢后回到办公桌前，给孩子发去了消",
+        "scene": "bg19",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“明天晚上带你去吃大餐！”",
+        "scene": "bg19",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      }
+    ],
+    "B": [
+      {
+        "textStart": "你说到早上的迟到，才发现自己最在意的",
+        "scene": "bg19",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“我也没说他错，就是听着不舒服。”",
+        "scene": "bg19",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "吴国平点了点头。",
+        "scene": "bg19",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "你们坐了一会儿，谈的都是这些年具体的",
+        "scene": "bg19",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "下午放学，你提前收好东西。接到孩子后",
+        "scene": "bg19",
+        "cast": [],
+        "speaker": "旁白"
+      }
+    ],
+    "C": [
+      {
+        "textStart": "你切回家里的聊天，打下：“本人今早赖",
+        "scene": "bg19",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "中午，孩子回了四个字：“下不为例。”",
+        "scene": "bg19",
+        "cast": [
+          "孩子"
+        ],
+        "speaker": "孩子"
+      },
+      {
+        "textStart": "你看着有点眼熟。想起来了，前天你刚这",
+        "scene": "bg19",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "你又发：“放学想吃什么？”",
+        "scene": "bg19",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "“先看表现。”",
+        "scene": "bg19",
+        "cast": [
+          "孩子"
+        ],
+        "speaker": "孩子"
+      },
+      {
+        "textStart": "你把接孩子写进日程，设了提醒。剩下的",
+        "scene": "bg19",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "陈应打电话约周末吃饭，你看过时间，答",
+        "scene": "bg19",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "吴国平看你起身：“今天走得挺准。”",
+        "scene": "bg19",
+        "cast": [
+          "吴国平"
+        ],
+        "speaker": "吴国平"
+      },
+      {
+        "textStart": "“有人考核。”",
+        "scene": "bg19",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      }
+    ],
+    "common": [
+      {
+        "textStart": "整理桌面时，一张旧明信片从书里滑下来",
+        "scene": "bg19",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "是笑笑寄来的。她已经有了自己的生活，",
+        "scene": "bg19",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "你读完，先把明信片放好。",
+        "scene": "bg19",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "接着合上教案，拿起外套。",
+        "scene": "bg19",
+        "cast": [],
+        "speaker": "旁白"
+      }
+    ]
+  },
+  "09": {
+    "intro": [
+      {
+        "textStart": "退休前的最后一节课，你照常提前到了教",
+        "scene": "bg20",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "讲台上的设备换过几次，粉笔盒却还放在",
+        "scene": "bg20",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "学生问今天还讲不讲题。",
+        "scene": "bg20",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“讲完这一道。”",
+        "scene": "bg20",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "黑板上仍然是熟悉的受力图。你写到最后",
+        "scene": "bg20",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "后排有人笑，你也笑了。",
+        "scene": "bg20",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "下课铃响时，没人马上起身。",
+        "scene": "bg20",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“老师，以后回来还能找到您吗？”",
+        "scene": "bg20",
+        "cast": [
+          "学生"
+        ],
+        "speaker": "学生"
+      },
+      {
+        "textStart": "你放下粉笔，看着他们。",
+        "scene": "bg20",
+        "cast": [],
+        "speaker": "旁白"
+      }
+    ],
+    "A": [
+      {
+        "textStart": "“可以给我发消息，我还是很愿意被你们",
+        "scene": "bg20",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "有人立刻翻本子记下来。",
+        "scene": "bg20",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "你等他们记完，才收起教案。",
+        "scene": "bg20",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "走出教室时，你听见里面有人说：“别只",
+        "scene": "bg20",
+        "cast": [
+          "学生"
+        ],
+        "speaker": "学生"
+      }
+    ],
+    "B": [
+      {
+        "textStart": "你打开一体机的拍照功能，招呼着全班同",
+        "scene": "bg20",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "随着快门音的消散，你知道“老师”这条",
+        "scene": "bg20",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "你转过身去，背着同学们把眼泪收起。",
+        "scene": "bg20",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "挥起粉笔在黑板上写下了一句“栀子花开",
+        "scene": "bg20",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "随后潇洒地离开了教室。",
+        "scene": "bg20",
+        "cast": [],
+        "speaker": "旁白"
+      }
+    ],
+    "C": [
+      {
+        "textStart": "“报了个声乐班。以后我也坐下面。”",
+        "scene": "bg20",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "学生立刻来了兴趣：“老师，先唱一句！",
+        "scene": "bg20",
+        "cast": [
+          "学生"
+        ],
+        "speaker": "学生"
+      },
+      {
+        "textStart": "你认真起了个头，前排有只手条件反射地",
+        "scene": "bg20",
+        "cast": [],
+        "speaker": "旁白"
+      },
+      {
+        "textStart": "“没事。”你说，“这就是我报名的原因",
+        "scene": "bg20",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "后排问：“您的声乐老师知道基础吗？”",
+        "scene": "bg20",
+        "cast": [
+          "学生"
+        ],
+        "speaker": "学生"
+      },
+      {
+        "textStart": "“交钱以前，他说零基础也欢迎。”",
+        "scene": "bg20",
+        "cast": [
+          "你"
+        ],
+        "speaker": "你"
+      },
+      {
+        "textStart": "笑声里，有人提醒你按时练习，有人说要",
+        "scene": "bg20",
+        "cast": [],
+        "speaker": "旁白"
+      }
+    ],
+    "common": []
+  }
+}
