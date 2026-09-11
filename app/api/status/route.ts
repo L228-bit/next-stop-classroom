@@ -1,8 +1,9 @@
 import { env } from 'cloudflare:workers';
-export async function GET() {
+import {dashScopeKey} from '@/lib/local-api';
+export async function GET(request:Request) {
   const vars = env as unknown as Record<string, string | undefined>;
   return Response.json(
-    { available: !!vars.DASHSCOPE_API_KEY, provider: 'qwen' },
+    { available: !!dashScopeKey(request,vars), provider: '阿里云百炼' },
     { headers: { 'Cache-Control': 'no-store' } },
   );
 }

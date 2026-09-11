@@ -36,6 +36,7 @@ next-env.d.ts
 /.wrangler/
 /outputs/
 /work/
+/archives/
 
 # 本机 AI 密钥
 .dev.vars

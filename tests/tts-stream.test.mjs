@@ -12,8 +12,8 @@ test('SSE emits first audio before completion and handles fragmented packets',as
 });
 test('stream player schedules audio before HTTP ends; leaving cancels queued audio',async()=>{
  let transport,started=0,stopped=0,cancelled=false;
- const oldFetch=globalThis.fetch,oldContext=globalThis.AudioContext;
- globalThis.AudioContext=class{state='running';currentTime=0;destination={};resume(){return Promise.resolve();}close(){return Promise.resolve();}createGain(){return {gain:{value:1},connect(){}};}createBuffer(c,n,r){return {duration:n/r,getChannelData:()=>new Float32Array(n)};}createBufferSource(){return {playbackRate:{value:1},connect(){},disconnect(){},start(){started++;},stop(){stopped++;}};}};
+ const oldFetch=globalThis.fetch,oldContext=globalThis.AudioContext,oldAudio=globalThis.Audio;
+ globalThis.AudioContext=class{state='running';currentTime=0;destination={};resume(){return Promise.resolve();}close(){return Promise.resolve();}createGain(){return {gain:{value:1},connect(){},disconnect(){}};}createBuffer(c,n,r){return {duration:n/r,getChannelData:()=>new Float32Array(n)};}createBufferSource(){return {playbackRate:{value:1},connect(){},disconnect(){},start(){started++;},stop(){stopped++;}};}};
  globalThis.fetch=async()=>new Response(new ReadableStream({start(c){transport=c;},cancel(){cancelled=true;}}));
  const states=[],player=new StreamPlayback(s=>states.push(s));
  try{
@@ -21,5 +21,15 @@ test('stream player schedules audio before HTTP ends; leaving cancels queued aud
   const wav=new Uint8Array(48),v=new DataView(wav.buffer);wav.set(new TextEncoder().encode('RIFF'),0);wav.set(new TextEncoder().encode('WAVEfmt '),8);v.setUint32(16,16,true);wav.set(new TextEncoder().encode('data'),36);v.setUint32(40,4,true);transport.enqueue(wav);
   await new Promise(r=>setTimeout(r,0));assert.equal(started,1);assert.ok(states.includes('playing'));
   player.stop();transport.enqueue(new Uint8Array(4));await promise;assert.equal(started,1);assert.equal(stopped,1);assert.equal(cancelled,true);
- }finally{player.clear();globalThis.fetch=oldFetch;globalThis.AudioContext=oldContext;}
+ }finally{player.clear();globalThis.fetch=oldFetch;globalThis.AudioContext=oldContext;globalThis.fetch=oldFetch;globalThis.Audio=oldAudio;}
+});
+
+test('a browser that never resolves audio resume offers manual playback instead of loading forever',async()=>{
+ const oldContext=globalThis.AudioContext,oldFetch=globalThis.fetch,oldAudio=globalThis.Audio;const states=[];
+ const wav=new Uint8Array(48);wav.set(new TextEncoder().encode('RIFF'),0);wav.set(new TextEncoder().encode('WAVEfmt '),8);new DataView(wav.buffer).setUint32(16,16,true);wav.set(new TextEncoder().encode('data'),36);
+ globalThis.fetch=async()=>new Response(wav);
+ globalThis.Audio=class{play(){return Promise.reject(new DOMException('gesture required','NotAllowedError'));}pause(){}};
+ globalThis.AudioContext=class{state='suspended';resume(){return new Promise(()=>{});}close(){return Promise.resolve();}};
+ const player=new StreamPlayback(s=>states.push(s));
+ try{await player.play({text:'测试',speaker:'旁白'});assert.equal(states.at(-1),'blocked');}finally{player.clear();globalThis.AudioContext=oldContext;globalThis.fetch=oldFetch;globalThis.Audio=oldAudio;}
 });

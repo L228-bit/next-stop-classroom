@@ -1,5 +1,6 @@
 import { env } from 'cloudflare:workers';
 import { validateAIInput, resolveAIResult, buildMessages } from '../../../lib/ai';
+import {dashScopeKey} from '@/lib/local-api';
 let windowStart = 0;
 let requests = 0;
 let running = 0;
@@ -16,8 +17,9 @@ export async function POST(request: Request) {
   if (!request.headers.get('content-type')?.includes('application/json'))
     return json({ error: '无效请求格式' }, 415);
   const vars = env as unknown as Record<string, string | undefined>;
-  if (!vars.DASHSCOPE_API_KEY)
-    return json({ error: '千问尚未连接，请先使用右侧选项继续。' }, 503);
+  const apiKey=dashScopeKey(request,vars);
+  if (!apiKey)
+    return json({ error: '请先在设置中填写阿里云百炼 API Key，或使用右侧选项继续。' }, 503);
   if (Number(request.headers.get('content-length') || 0) > 20000)
     return json({ error: '输入过长' }, 413);
   let input;
@@ -42,7 +44,7 @@ export async function POST(request: Request) {
     const response = await fetch(`${(vars.DASHSCOPE_BASE_URL || 'https://dashscope.aliyuncs.com/compatible-mode/v1').replace(/\/$/, '')}/chat/completions`, {
       method: 'POST',
       headers: {
-        Authorization: `Bearer ${vars.DASHSCOPE_API_KEY}`,
+        Authorization: `Bearer ${apiKey}`,
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({

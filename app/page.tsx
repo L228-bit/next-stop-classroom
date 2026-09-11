@@ -20,6 +20,7 @@ import { scenes } from '@/lib/v4-scenes';
 import { characterFor } from '@/lib/v4-cast';
 import { statsFor, endingFor } from '@/lib/v4-state';
 import { statLabels, type Stats } from '@/lib/v4-state';
+import {apiHeaders} from '@/lib/client-api-key';
 
 import { initial, linesFor, restoreProgress, confirmInterlude, revealEnding, advance, back, pick, jumpToChapter, jumpToEnding, type Progress, type CustomAnswer } from '@/lib/v4-flow';
 
@@ -71,11 +72,12 @@ function StoryGame() {
   const narrationSpeaker = introducing||remembering||finished ? '旁白' : custom?.speaker??cue.speaker;
   const speechAsset = introducing
     ? `/audio/opening/${String(g.line).padStart(3,'0')}.wav`
-    : !finished && !remembering && g.phase !== 'ai' && staging[ch.id]?.[segment]?.[g.line] ? `/audio/${ch.id}/${segment}/${String(g.line).padStart(3,'0')}.wav` : undefined;
+    : !finished && !remembering && g.phase !== 'ai' && staging[ch.id]?.[segment]?.[g.line] ? `/audio/${ch.id}/${segment}/${String(g.line).padStart(3,'0')}.wav${ch.id==='04'&&segment==='common'&&g.line===5?'?v=corrected-wu-1':''}` : undefined;
   const side = choosing ? 'right' : person.side;
   const opening = g.chapter === 0 && g.phase === 'intro' && g.line === 0;
   const speech=useSpeech(narrationText,narrationSpeaker,!startScreen&&!interlude&&!choosing&&(!finished||!!finalEnding),speakerAge,speechAsset,g.phase==='ai'||remembering||finished,!!panel||settingsOpen);
-  const reading=useReading(paragraph,readingId(g),!startScreen&&!introducing&&!interlude&&!choosing&&!finished,reducedMotion||showWhole.current===readingId(g),!!panel||settingsOpen,speech.muted?undefined:speech.progress);
+  const reading=useReading(paragraph,readingId(g),!startScreen&&!introducing&&!interlude&&!choosing&&!finished,false,!!panel||settingsOpen,speech.muted?undefined:speech.progress);
+  const introReading=useReading(openingNarration[g.line]??'',`opening-${g.line}`,introducing&&!startScreen,false,!!panel||settingsOpen);
   useEffect(() => {
     try { const raw = localStorage.getItem(key); if (raw) { const restored=restoreProgress(JSON.parse(raw)); if (restored) setG(restored.phase==='end'?{...restored,phase:'epilogue',line:0,recollectionDone:false}:restored); } } catch { setSaved(false); }
     setReady(true);
@@ -83,14 +85,16 @@ function StoryGame() {
   useEffect(() => { if (ready) try { localStorage.setItem(key, JSON.stringify(g)); setSaved(true); } catch { setSaved(false); } }, [g, ready]);
   useEffect(() => { if (panel) dialog.current?.showModal(); else dialog.current?.close(); }, [panel]);
   useEffect(() => {
-    fetch('/api/status').then(r=>r.json()).then(data=>setAiAvailable(!!data && typeof data === 'object' && 'available' in data && data.available === true)).catch(()=>setAiAvailable(false));
-    return () => requestRef.current?.abort();
+    const refresh=()=>fetch('/api/status',{headers:apiHeaders(false)}).then(r=>r.json()).then(data=>setAiAvailable(!!data && typeof data === 'object' && 'available' in data && data.available === true)).catch(()=>setAiAvailable(false));
+    void refresh();window.addEventListener('vn-api-key',refresh);
+    return () => {window.removeEventListener('vn-api-key',refresh);requestRef.current?.abort();};
   }, []);
   useEffect(() => { requestRef.current?.abort(); requestRef.current=null; setAiBusy(false); setAiError(''); try{setDraft(localStorage.getItem(key+'-draft-'+ch.id)??'');}catch{setDraft('');} }, [g.chapter, g.phase]);
   function next() {
     if(aiBusy||panel||settingsOpen)return;
     if(startScreen){if(ready)setStartScreen(false);return;}
-    if(introducing||interlude){setG(confirmInterlude);return;}
+    if(introducing){if(introReading.advance())setG(confirmInterlude);return;}
+    if(interlude){setG(confirmInterlude);return;}
     if(finished){endReading.advance();return;}
     if(choosing||!reading.advance())return;
     setG(prev=>remembering&&prev.line===Math.max(1,highlights.length)-1?revealEnding(prev):advance(prev));
@@ -121,7 +125,7 @@ function StoryGame() {
     setAiBusy(true); setAiError('');
     const timeout = setTimeout(()=>controller.abort(), 20000);
     try {
-      const response = await fetch('/api/respond', {method:'POST',headers:{'Content-Type':'application/json'},signal:controller.signal,body:JSON.stringify({chapter,text:draft.trim(),history:Object.entries(g.picks).filter(([id])=>Number(id)<Number(story[chapter].id)).map(([id,choice])=>({chapter:story.findIndex(c=>c.id===id),choice,text:g.answers?.[id]?.text,reply:g.answers?.[id]?.reply}))})});
+      const response = await fetch('/api/respond', {method:'POST',headers:apiHeaders(),signal:controller.signal,body:JSON.stringify({chapter,text:draft.trim(),history:Object.entries(g.picks).filter(([id])=>Number(id)<Number(story[chapter].id)).map(([id,choice])=>({chapter:story.findIndex(c=>c.id===id),choice,text:g.answers?.[id]?.text,reply:g.answers?.[id]?.reply}))})});
       const result = await response.json() as {choice:number;reply:string;speaker:string;error?:string};
       if (!response.ok) throw new Error(result.error || '回应暂时没有送达，请重试。');
       if (!Number.isInteger(result.choice) || result.choice<0 || result.choice>2 || typeof result.reply!=='string' || !result.reply.trim() || result.reply.length>400 || typeof result.speaker!=='string' || result.speaker.length>20) throw new Error('回应没有完整送达，请重试。');
@@ -143,7 +147,7 @@ function StoryGame() {
       if ((e.key===' '||e.key==='Enter') && (e.target as HTMLElement).closest('button:focus-visible, a:focus-visible')) return;
       if (e.key === ' ' || (e.key === 'Enter' && !(e.target as HTMLElement).closest('button, a'))) {
         if (startScreen) { e.preventDefault(); if (ready) setStartScreen(false); return; }
-        if (introducing || interlude) { e.preventDefault(); setG(confirmInterlude); return; }
+        if (introducing || interlude) { e.preventDefault(); next(); return; }
       }
       if (startScreen || introducing || interlude) return;
       if (e.key === 'ArrowLeft') { e.preventDefault(); previous(); }
@@ -153,7 +157,7 @@ function StoryGame() {
     window.addEventListener('keydown', listener); return () => window.removeEventListener('keydown', listener);
   });
   const fullscreen=<button className="vn-fullscreen" aria-label="切换全屏" onClick={()=>{if(document.fullscreenElement)document.exitFullscreen().catch(()=>{});else document.documentElement.requestFullscreen?.().catch(()=>{});}}><Maximize2 size={17}/></button>;
-  const endReading=useReading(generated.text??finalEnding?.text??'',`ending-${generated.text??finalEnding?.id??''}`,!!finalEnding,reducedMotion,!!panel||settingsOpen,speech.muted?undefined:speech.progress);
+  const endReading=useReading(generated.text??finalEnding?.text??'',`ending-${generated.text??finalEnding?.id??''}`,!!finalEnding,false,!!panel||settingsOpen,speech.muted?undefined:speech.progress);
   const shortcuts=<button className="vn-shortcuts" disabled={!ready||aiBusy} onClick={()=>setPanel('chapters')}><BookOpen size={17}/>章节与结尾</button>;
   const overlays=<>{returnProgress&&<button className="vn-return-progress vn-text-button" onClick={()=>{setG(returnProgress);setReturnProgress(null);setStartScreen(false);setPanel(null);}}>返回原进度</button>}{fullscreen}<dialog className="vn-modal" ref={dialog} onCancel={() => setPanel(null)} onClick={e => { if (e.target === e.currentTarget) setPanel(null); }}>
       <header><h2>{panel === 'chapters' ? '人生章节' : '人生回忆'}</h2><button aria-label="关闭" onClick={() => setPanel(null)}><X size={22} /></button></header>
@@ -172,9 +176,9 @@ function StoryGame() {
     <div className="vn-onboarding-person"><CharacterSprite person={characterFor(g.line===0?'你':'陈应',0)} side="right" key={g.line}/></div>
     <section className="vn-onboarding-copy" key={g.line}>
       <p className="vn-kicker">{g.line===0?'九月 · 报到日':'在这里，你会遇见'}</p>
-      <h1>{g.line===0?<>你，22 岁。<br/><span>新手高中物理老师</span></>:<>这是你的师傅<br/><span>陈应</span></>}</h1>
+      <h1 className="vn-intro-type" onClick={()=>introReading.advance()}>{introReading.visible}</h1>
       <p>{g.line===0?'今天，是你到学校报到的第一天。':'他会陪你，走过讲台前最初的日子。'}</p>
-      <button className="vn-start-button" onClick={()=>setG(confirmInterlude)}>{g.line===0?'认识你的师傅':'开始第一章'}<ArrowRight size={22}/></button>
+      <button className="vn-start-button" onClick={next}>{g.line===0?'认识你的师傅':'开始第一章'}<ArrowRight size={22}/></button>
       {g.line===1&&<button className="vn-text-button vn-opening-back" onClick={()=>setG(back)}>返回介绍</button>}
     </section>{shortcuts}{overlays}
   </main></GameViewport>;
@@ -226,7 +230,7 @@ function StoryGame() {
       <button disabled={aiBusy} className="vn-text-button" onClick={() => setG({ ...g, phase: 'intro', line: 0 })}><ArrowLeft size={15} />再读一遍情境</button>
     </section>}
     {finalEnding ? <section className="vn-end"><p className="vn-kicker">{g.previewEnding?'终章预览 · 基于已有经历':'终章'}</p><h2>{finalEnding.name}</h2><p className="vn-ending-copy" onClick={()=>endReading.advance()}>{endReading.visible}</p><p className="vn-ending-subtitle">{finalEnding.subtitle}</p><button className="vn-text-button" onClick={speech.replay} disabled={speech.status==='loading'}><Volume2 size={16}/>{speech.status==='loading'?'连接语音…':'重听结语'}</button><button disabled={aiBusy} onClick={() => setPanel('journal')}>翻开人生回忆 <BookOpen size={18} /></button><button className="vn-text-button" onClick={()=>setG(jumpToEnding)}>重新回望</button><button className="vn-text-button" onClick={restart}>重新开始</button></section> : finished ? <section className="vn-end vn-end-wait" aria-live="polite"><p className="vn-kicker">铃声之后</p><h2>那些日子，慢慢浮现。</h2><p className="vn-ending-copy">{generated.status==='error'?'这封写给你的结语，暂时没能送达。':'你走过的路，说过的话，正在汇成最后一页。'}</p>{generated.status==='error'&&<><button onClick={generated.retry}>再试一次</button><button className="vn-text-button" onClick={generated.useOriginal}>阅读原稿结尾</button></>}</section> : !choosing && <section className="vn-dialogue" aria-label={remembering?'精选回忆':'剧情对话'}>
-      <div className="vn-dialogue-top"><span className="vn-speaker">{remembering?'那些记得的瞬间':cue.speaker}<small>{remembering?'回望':g.phase === 'ai' ? '对你的回应' : g.phase === 'branch' ? `选择 ${ch.choices[g.picks[ch.id] ?? 0].id} · 后续` : g.phase === 'common' ? '故事继续' : '物理教师篇'}</small></span><span className="vn-line-tools">{<><button className="vn-voice-button" onClick={speech.replay} disabled={speech.status==='loading'} aria-label="播放这句回应"><Volume2 size={16}/>{({idle:'播放语音',loading:'生成语音…',playing:'重听',ready:'重听',blocked:'点击播放',error:'重试语音'})[speech.status]}</button><button className="vn-voice-button" onClick={speech.toggle} aria-label={speech.muted?'开启自动语音':'关闭自动语音'}>{speech.muted?<VolumeX size={16}/>:<Volume2 size={16}/>}</button></>}{g.line + 1} / {remembering?Math.max(1,highlights.length):lines.length}</span></div>
+      <div className="vn-dialogue-top"><span className="vn-speaker">{remembering?'那些记得的瞬间':cue.speaker}<small>{remembering?'回望':g.phase === 'ai' ? '对你的回应' : g.phase === 'branch' ? `选择 ${ch.choices[g.picks[ch.id] ?? 0].id} · 后续` : g.phase === 'common' ? '故事继续' : '物理教师篇'}</small></span><span className="vn-line-tools">{(g.phase==='ai'||remembering)&&<button className="vn-voice-button" onClick={speech.compatible}>兼容播放</button>}{<><button className="vn-voice-button" onClick={speech.replay} disabled={speech.status==='loading'} aria-label="播放这句回应"><Volume2 size={16}/>{({idle:'播放语音',loading:'生成语音…',playing:'重听',ready:'重听',blocked:'点击播放',error:'重试语音'})[speech.status]}</button><button className="vn-voice-button" onClick={speech.toggle} aria-label={speech.muted?'开启自动语音':'关闭自动语音'}>{speech.muted?<VolumeX size={16}/>:<Volume2 size={16}/>}</button></>}{g.line + 1} / {remembering?Math.max(1,highlights.length):lines.length}</span></div>
       <p className={`vn-reading ${!remembering&&paragraph.length>120?'vn-reading-dense':''}`} onClick={next}><span aria-hidden="true">{reading.visible}</span><span className="vn-sr-only" aria-live="polite">{reading.done?paragraph:''}</span></p>
       <div className="vn-dialogue-actions"><button className="vn-text-button" disabled={opening} onClick={previous}><ArrowLeft size={16} />上一句</button>
         {g.phase === 'intro' && <button className="vn-text-button vn-skip" onClick={() => setG({ ...g, phase: 'choice', line: 0 })}>前往选择 <ChevronDown size={16} /></button>}

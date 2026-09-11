@@ -1,13 +1,14 @@
 import { env } from 'cloudflare:workers';
-import { localPost, apiJson } from '../../../lib/local-api';
+import { localPost, apiJson, dashScopeKey } from '../../../lib/local-api';
 import { validateSpeech, voiceFor, safeAudioURL } from '../../../lib/tts';
 export const POST=localPost(validateSpeech,async(input,request)=>{
   const vars=env as unknown as Record<string,string|undefined>;
-  if(!vars.DASHSCOPE_API_KEY)return apiJson({error:'语音暂未连接，仍可继续阅读。'},503);
+  const apiKey=dashScopeKey(request,vars);
+  if(!apiKey)return apiJson({error:'请先在设置中填写阿里云百炼 API Key，仍可继续阅读。'},503);
   const signal=AbortSignal.any([request.signal,AbortSignal.timeout(25000)]);
   const {model,voice}=voiceFor(input.speaker,vars,input.age);
   const response=await fetch(`${(vars.TTS_BASE_URL||'https://dashscope.aliyuncs.com/api/v1').replace(/\/$/,'')}/services/aigc/multimodal-generation/generation`,{
-    method:'POST',headers:{Authorization:`Bearer ${vars.DASHSCOPE_API_KEY}`,'Content-Type':'application/json'},body:JSON.stringify({model,input:{text:input.text,voice,language_type:'Chinese'}}),signal,
+    method:'POST',headers:{Authorization:`Bearer ${apiKey}`,'Content-Type':'application/json'},body:JSON.stringify({model,input:{text:input.text,voice,language_type:'Chinese'}}),signal,
   });
   if(!response.ok)return apiJson({error:'语音暂未生成，可以重试或继续阅读。'},502);
   const data=await response.json() as {output?:{audio?:{url?:string}}};

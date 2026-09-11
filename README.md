@@ -1,0 +1,22 @@
+# 下一站，讲台
+
+16:9 横屏教师人生视觉小说。固定剧情与已生成语音可直接阅读；自由回答、实时语音和个性化结语需要玩家自己的阿里云百炼 API Key。
+
+## 本地运行
+
+```bash
+npm install
+npm run dev
+```
+
+打开 `http://localhost:3000`，进入“设置”，填写以 `sk-` 开头的阿里云百炼（DashScope）API Key。
+
+API Key 只保存在当前浏览器的 `localStorage`，不会写进游戏进度、源代码或 Git。项目仅接受阿里云百炼 API Key；不要提交 `.dev.vars`、`.env` 或任何真实密钥。
+
+## 检查
+
+```bash
+npm test
+npm run typecheck
+npm run build
+```

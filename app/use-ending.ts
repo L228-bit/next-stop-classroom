@@ -2,6 +2,7 @@
 import {useEffect,useState} from 'react';
 import {endingFingerprint,parseEnding,type GeneratedEnding} from '@/lib/v4-ending';
 import type {Progress} from '@/lib/v4-flow';
+import {apiHeaders} from '@/lib/client-api-key';
 export function useEnding(g:Progress,active:boolean,save:(ending:GeneratedEnding)=>void){
   const fingerprint=endingFingerprint(g);
   const cached=g.generatedEnding?.fingerprint===fingerprint?g.generatedEnding.text:undefined;
@@ -14,7 +15,7 @@ export function useEnding(g:Progress,active:boolean,save:(ending:GeneratedEnding
     if(!active||cached)return;
     const controller=new AbortController();
     setResult({key:fingerprint,status:'loading'});
-    fetch('/api/ending',{method:'POST',headers:{'Content-Type':'application/json'},body:payload,signal:AbortSignal.any([controller.signal,AbortSignal.timeout(25000)])})
+    fetch('/api/ending',{method:'POST',headers:apiHeaders(),body:payload,signal:AbortSignal.any([controller.signal,AbortSignal.timeout(25000)])})
       .then(async response=>{const data=await response.json() as GeneratedEnding;if(!response.ok||data.fingerprint!==fingerprint||!parseEnding(JSON.stringify(data)))throw new Error('ending unavailable');if(!controller.signal.aborted)save(data);})
       .catch(()=>{if(!controller.signal.aborted){setResult({key:fingerprint,status:'error'});setFallback(fingerprint);}});
     return()=>controller.abort();

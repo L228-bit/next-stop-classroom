@@ -93,3 +93,15 @@
 .vn button:active:not(:disabled){filter:brightness(.92)}
 @media(hover:hover) and (pointer:fine){.vn button:hover:not(:disabled){filter:brightness(1.08)}}
 .vn-return-progress{position:absolute;left:4%;bottom:36px;z-index:8;background:#173c35ed;padding:8px 14px;border:1px solid #d3bd8e55;border-radius:4px}
+/* Restore the solid V1 reading surfaces and strengthen small-screen legibility. */
+.vn-frame .vn-interlude-card h1{font-size:62px;line-height:1.35}
+.vn-frame .vn-interlude-card>p:not(.vn-kicker){font-size:21px}
+.vn-frame .vn-dialogue,.vn-frame .vn-recollection .vn-dialogue,.vn-frame .vn-end,.vn-frame .vn-choice-list button{background:#f4f0e6;backdrop-filter:none}
+.vn-frame .vn-answer-area,.vn-frame .vn-stats,.vn-modal,.vn-reset-dialog{background:#173c35;backdrop-filter:none}
+.vn-modal,.vn-reset-dialog{position:fixed;inset:0;margin:auto}
+.vn-rate-setting{display:flex;align-items:center;gap:12px}
+.vn-rate-setting>span:first-child{margin-right:auto}
+.vn-rate-setting input[type=range]{width:160px;accent-color:#e2c495}
+.vn-rate-setting input[type=number]{width:70px;padding:6px;background:#f4f0e6;color:#243c33;border:1px solid #d7bd8c;border-radius:4px}
+.vn-api-setting{display:grid;gap:9px;padding-top:18px;border-top:1px solid #d7bd8c55}.vn-api-setting>label{display:block;font-size:15px}.vn-api-setting>input{width:100%;box-sizing:border-box;padding:10px 12px;border:1px solid #d7bd8c88;border-radius:4px;background:#f4f0e6;color:#243c33;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-weight:500}.vn-api-setting>div{display:flex;align-items:center;gap:10px}.vn-api-setting button{padding:7px 14px;border:1px solid #d7bd8c88;border-radius:3px;background:#e2c495;color:#283d31}.vn-api-setting button+button{background:transparent;color:#f5eddb}.vn-api-setting button:disabled{opacity:.45}.vn-api-setting span{margin-left:auto;font-size:12px;color:#d5e1d5}.vn-api-setting>p{font-size:13px;line-height:1.6;color:#cddace;margin:0}
+.vn-onboarding-copy .vn-intro-type{min-height:164px;max-width:530px;white-space:pre-wrap}

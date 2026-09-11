@@ -3161,22 +3161,22 @@
       "chapter": "04",
       "segment": "common",
       "line": 5,
-      "text": "“慢慢看。作业量这边我们对一下，给她太大压力。”",
+      "text": "“慢慢看。作业量这边我们对一下，别给她太大压力。”",
       "speaker": "吴国平",
       "parts": [
         {
           "speaker": "吴国平",
-          "text": "“慢慢看。作业量这边我们对一下，给她太大压力。”",
+          "text": "“慢慢看。作业量这边我们对一下，别给她太大压力。”",
           "voice": "qwen-tts-vc-wgp15s-voice-20260910145840113-a259",
           "model": "qwen3-tts-vc-2026-01-22",
-          "start": 0.0,
-          "end": 4.72,
+          "start": 0,
+          "end": 4.56,
           "speed": 1.0
         }
       ],
       "path": "/public/audio/04/common/005.wav",
       "status": "generated",
-      "bytes": 226604
+      "bytes": 218924
     },
     {
       "chapter": "04",

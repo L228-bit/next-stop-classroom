@@ -1,4 +1,9 @@
 export const apiJson=(body:unknown,status=200)=>Response.json(body,{status,headers:{'Cache-Control':'no-store'}});
+export const DASH_SCOPE_KEY_HEADER='x-dashscope-api-key';
+export function dashScopeKey(request:Request,vars:Record<string,string|undefined>){
+  const supplied=request.headers.get(DASH_SCOPE_KEY_HEADER)?.trim();
+  return supplied&&/^sk-[A-Za-z0-9._-]{20,200}$/.test(supplied)?supplied:vars.DASHSCOPE_API_KEY?.trim();
+}
 // Each route gets its own modest concurrency and request budget.
 export function localPost<T>(validate:(value:unknown)=>T|null,run:(input:T,request:Request)=>Promise<Response>) {
   let start=0,requests=0,running=0;

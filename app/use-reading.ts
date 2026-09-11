@@ -18,6 +18,6 @@ export function useReading(text:string,id:string,enabled:boolean,instant:boolean
     return()=>{reader.cancel();current.current=null;};
   },[text,id,enabled,instant,speed]);
   useEffect(()=>{current.current?.reader.pause(paused);},[paused,id,enabled,instant]);
-  useEffect(()=>{if(audioProgress!==undefined&&!paused){current.current?.reader.progress(audioProgress);}else current.current?.reader.pause(paused);},[audioProgress,paused,id]);
+
   return {visible:Array.from(text).slice(0,view.id===id?view.count:0).join(''),done:view.id===id&&view.done,advance:()=>current.current?.id===id&&current.current.reader.advance()};
 }
