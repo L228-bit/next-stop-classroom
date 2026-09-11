@@ -1,7 +1,10 @@
 {
   "name": "next-stop-classroom",
-  "version": "0.1.0",
+  "version": "2.0.0",
+  "description": "《下一站，讲台》教师人生视觉小说",
+  "author": "L228-bit",
   "private": true,
+  "main": "desktop/main.cjs",
   "engines": {
     "node": ">=22.13.0"
   },
@@ -12,7 +15,9 @@
     "lint": "oxlint",
     "format": "oxfmt",
     "test": "node --test tests/*.test.mjs",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "desktop:mac": "npm run build && electron-builder --mac dmg --arm64",
+    "desktop:win": "npm run build && electron-builder --win nsis --x64"
   },
   "dependencies": {
     "react": "19.2.6",
@@ -51,7 +56,41 @@
     "tailwindcss": "4.2.1",
     "typescript": "5.9.3",
     "vite": "8.0.13",
+    "electron": "^38.1.2",
+    "electron-builder": "^26.0.12",
     "wrangler": "4.92.0"
   },
-  "type": "module"
+  "type": "module",
+  "build": {
+    "appId": "cn.lin.nextstopclassroom",
+    "productName": "下一站，讲台",
+    "artifactName": "Next-Stop-Classroom-${version}-${os}-${arch}.${ext}",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "desktop/main.cjs",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "dist",
+        "to": "dist"
+      }
+    ],
+    "mac": {
+      "category": "public.app-category.games",
+      "target": ["dmg"],
+      "identity": null
+    },
+    "win": {
+      "target": ["nsis"]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "shortcutName": "下一站，讲台"
+    }
+  }
 }

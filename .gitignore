@@ -37,6 +37,7 @@ next-env.d.ts
 /outputs/
 /work/
 /archives/
+/release/
 
 # 本机 AI 密钥
 .dev.vars
