@@ -13,7 +13,7 @@ test('SSE emits first audio before completion and handles fragmented packets',as
 test('stream player schedules audio before HTTP ends; leaving cancels queued audio',async()=>{
  let transport,started=0,stopped=0,cancelled=false;
  const oldFetch=globalThis.fetch,oldContext=globalThis.AudioContext;
- globalThis.AudioContext=class{state='running';currentTime=0;destination={};resume(){return Promise.resolve();}close(){return Promise.resolve();}createBuffer(c,n,r){return {duration:n/r,getChannelData:()=>new Float32Array(n)};}createBufferSource(){return {playbackRate:{value:1},connect(){},disconnect(){},start(){started++;},stop(){stopped++;}};}};
+ globalThis.AudioContext=class{state='running';currentTime=0;destination={};resume(){return Promise.resolve();}close(){return Promise.resolve();}createGain(){return {gain:{value:1},connect(){}};}createBuffer(c,n,r){return {duration:n/r,getChannelData:()=>new Float32Array(n)};}createBufferSource(){return {playbackRate:{value:1},connect(){},disconnect(){},start(){started++;},stop(){stopped++;}};}};
  globalThis.fetch=async()=>new Response(new ReadableStream({start(c){transport=c;},cancel(){cancelled=true;}}));
  const states=[],player=new StreamPlayback(s=>states.push(s));
  try{

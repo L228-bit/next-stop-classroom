@@ -15,6 +15,7 @@ export function createReader(text:string, update:(count:number,done:boolean)=>vo
   }
   update(count,done);schedule();
   return {
+    progress(fraction:number){if(done||stopped)return;time.clear(timer);count=Math.max(count,Math.min(characters.length,Math.floor(characters.length*fraction)));done=count===characters.length;update(count,done);},
     finish(){time.clear(timer);count=characters.length;done=true;update(count,true);},
     advance(){
       if(stopped||paused||time.now()<allowedAt)return false;

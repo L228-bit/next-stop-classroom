@@ -1,6 +1,6 @@
 import type { SpeechInput } from './tts';
 export type SpeechStatus='idle'|'loading'|'playing'|'ready'|'blocked'|'error';
-type Clip={play:()=>Promise<void>;pause:()=>void;currentTime:number;playbackRate?:number;onended:((event:Event)=>void)|null;onerror:((event:Event)=>void)|null};
+type Clip={play:()=>Promise<void>;pause:()=>void;currentTime:number;volume?:number;duration?:number;playbackRate?:number;onended:((event:Event)=>void)|null;onerror:((event:Event)=>void)|null};
 type Dependencies={fetchClip:(input:SpeechInput,signal:AbortSignal)=>Promise<Blob>;url:(blob:Blob)=>string;revoke:(url:string)=>void;audio:(url:string)=>Clip;update:(status:SpeechStatus)=>void};
 // A generation counter prevents an old network result from speaking in a new scene.
 export class SpeechPlayback {
@@ -11,6 +11,8 @@ export class SpeechPlayback {
   private cache=new Map<string,string>();
   constructor(private deps:Dependencies){}
   stop(){this.generation++;this.controller?.abort();this.controller=undefined;if(this.clip){this.clip.onended=null;this.clip.onerror=null;this.clip.pause();this.clip=undefined;}}
+  progress(){return this.clip?.duration?this.clip.currentTime/this.clip.duration:undefined;}
+  pause(value:boolean){if(this.clip){if(value)this.clip.pause();else void this.clip.play().catch(()=>this.deps.update('blocked'));}}
   setLine(input?:SpeechInput,autoplay=true){this.stop();this.input=input;this.deps.update('idle');if(input&&autoplay)void this.play();}
   async play(){
     if(!this.input)return;
@@ -27,8 +29,9 @@ export class SpeechPlayback {
         if(this.cache.size>12){const oldest=this.cache.keys().next().value!;this.deps.revoke(this.cache.get(oldest)!);this.cache.delete(oldest);}
       }
       if(this.generation!==generation)return;
-      const clip=this.deps.audio(url);this.clip=clip;
-      if (clip.playbackRate !== undefined && input.age !== undefined) clip.playbackRate=input.age<18?1.08:input.age<30?1.04:input.age>=55?.9:input.age>=40?.96:1;
+      const clip=this.deps.audio(url);this.clip=clip;try{if(clip.volume!==undefined)clip.volume=Number(localStorage.getItem('vn-volume')??1);}catch{}
+      // Cached files already contain the intended speaker speeds.
+      if(clip.playbackRate!==undefined)clip.playbackRate=1;
       clip.onended=()=>{if(this.generation===generation)this.deps.update('ready');};
       clip.onerror=()=>{if(this.generation===generation)this.deps.update('error');};
       try{await clip.play();if(this.generation===generation)this.deps.update('playing');}

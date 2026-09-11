@@ -39,6 +39,7 @@ function StoryGame() {
   const requestRef = useRef<AbortController | null>(null);
   const [saved, setSaved] = useState(true);
   const [panel, setPanel] = useState<'chapters' | 'journal' | null>(null);
+  const [returnProgress,setReturnProgress]=useState<Progress|null>(null);
   const [settingsOpen,setSettingsOpen]=useState(false);
   const showWhole=useRef('');
   const reducedMotion=useReducedMotion();
@@ -73,8 +74,8 @@ function StoryGame() {
     : !finished && !remembering && g.phase !== 'ai' && staging[ch.id]?.[segment]?.[g.line] ? `/audio/${ch.id}/${segment}/${String(g.line).padStart(3,'0')}.wav` : undefined;
   const side = choosing ? 'right' : person.side;
   const opening = g.chapter === 0 && g.phase === 'intro' && g.line === 0;
-  const reading=useReading(paragraph,readingId(g),!startScreen&&!introducing&&!interlude&&!choosing&&!finished,reducedMotion||showWhole.current===readingId(g),!!panel||settingsOpen);
-  const speech=useSpeech(narrationText,narrationSpeaker,!startScreen&&!interlude&&!choosing&&(!finished||!!finalEnding)&&!panel&&!settingsOpen,speakerAge,speechAsset,g.phase==='ai'||remembering||finished);
+  const speech=useSpeech(narrationText,narrationSpeaker,!startScreen&&!interlude&&!choosing&&(!finished||!!finalEnding),speakerAge,speechAsset,g.phase==='ai'||remembering||finished,!!panel||settingsOpen);
+  const reading=useReading(paragraph,readingId(g),!startScreen&&!introducing&&!interlude&&!choosing&&!finished,reducedMotion||showWhole.current===readingId(g),!!panel||settingsOpen,speech.muted?undefined:speech.progress);
   useEffect(() => {
     try { const raw = localStorage.getItem(key); if (raw) { const restored=restoreProgress(JSON.parse(raw)); if (restored) setG(restored.phase==='end'?{...restored,phase:'epilogue',line:0,recollectionDone:false}:restored); } } catch { setSaved(false); }
     setReady(true);
@@ -85,25 +86,33 @@ function StoryGame() {
     fetch('/api/status').then(r=>r.json()).then(data=>setAiAvailable(!!data && typeof data === 'object' && 'available' in data && data.available === true)).catch(()=>setAiAvailable(false));
     return () => requestRef.current?.abort();
   }, []);
-  useEffect(() => { requestRef.current?.abort(); requestRef.current=null; setAiBusy(false); setAiError(''); setDraft(''); }, [g.chapter, g.phase]);
+  useEffect(() => { requestRef.current?.abort(); requestRef.current=null; setAiBusy(false); setAiError(''); try{setDraft(localStorage.getItem(key+'-draft-'+ch.id)??'');}catch{setDraft('');} }, [g.chapter, g.phase]);
   function next() {
-    if(aiBusy||choosing||finished||introducing||interlude||!reading.advance())return;
-    setG(prev=>advance(prev));
+    if(aiBusy||panel||settingsOpen)return;
+    if(startScreen){if(ready)setStartScreen(false);return;}
+    if(introducing||interlude){setG(confirmInterlude);return;}
+    if(finished){endReading.advance();return;}
+    if(choosing||!reading.advance())return;
+    setG(prev=>remembering&&prev.line===Math.max(1,highlights.length)-1?revealEnding(prev):advance(prev));
   }
   function previous() { if (!aiBusy) {const prev=back(g);showWhole.current=readingId(prev);setG(prev);} }
-  function choose(index: number) { if (!aiBusy) setG(prev=>pick(prev,index)); }
+  function choose(index: number) { if (!aiBusy){setReturnProgress(null);setG(prev=>pick(prev,index));} }
   function restart() {
+    if(!window.confirm('清除当前进度并重新开始？上一局会保留为可恢复的备份。'))return;
+    try{localStorage.setItem(key+'-backup',JSON.stringify(g));}catch{}
     requestRef.current?.abort(); requestRef.current=null;
     setAiBusy(false); setAiError(''); setDraft(''); setPanel(null);setSettingsOpen(false);showWhole.current='';speech.clear();generated.clear();
-    try {localStorage.removeItem(key);} catch {setSaved(false);}
-    setG({...initial,picks:{},answers:{}}); setStartScreen(true);
+    try {localStorage.removeItem(key);for(const chapter of story)localStorage.removeItem(key+'-draft-'+chapter.id);} catch {setSaved(false);}
+    setReturnProgress(null);setG({...initial,picks:{},answers:{}}); setStartScreen(true);
   }
   function revisit(chapter:number,phase:'chapter'|'choice') {
+    if(!window.confirm('重选会替换这一章及之后的选择和回忆。是否继续？'))return;
+    try{localStorage.setItem(key+'-backup',JSON.stringify(g));}catch{}
     setG({...g,chapter,phase,line:0,recollectionDone:false,generatedEnding:undefined,previewEnding:false,picks:Object.fromEntries(Object.entries(g.picks).filter(([id])=>Number(id)<Number(story[chapter].id))),answers:Object.fromEntries(Object.entries(g.answers??{}).filter(([id])=>Number(id)<Number(story[chapter].id)))});
     setPanel(null);showWhole.current='';
   }
   function navigate(chapter:number|'end') {
-    requestRef.current?.abort();setG(prev=>chapter==='end'?jumpToEnding(prev):jumpToChapter(prev,chapter));setStartScreen(false);setPanel(null);showWhole.current='';
+    if(!returnProgress)setReturnProgress(g);requestRef.current?.abort();setG(prev=>chapter==='end'?jumpToEnding(prev):jumpToChapter(prev,chapter));setStartScreen(false);setPanel(null);showWhole.current='';
   }
   async function submitAnswer() {
     if (!draft.trim() || draft.length > 200 || aiBusy || requestRef.current || !choosing) return;
@@ -117,6 +126,8 @@ function StoryGame() {
       if (!response.ok) throw new Error(result.error || '回应暂时没有送达，请重试。');
       if (!Number.isInteger(result.choice) || result.choice<0 || result.choice>2 || typeof result.reply!=='string' || !result.reply.trim() || result.reply.length>400 || typeof result.speaker!=='string' || result.speaker.length>20) throw new Error('回应没有完整送达，请重试。');
       if (controller.signal.aborted || requestRef.current!==controller) return;
+      try{localStorage.removeItem(key+'-draft-'+ch.id);}catch{}
+      setReturnProgress(null);
       const answer:CustomAnswer={text:draft.trim(),reply:result.reply,speaker:result.speaker,choice:result.choice};
       setG(prev=>prev.chapter===chapter && prev.phase==='choice'?pick(prev,result.choice,answer):prev);
     } catch(error) {
@@ -129,7 +140,7 @@ function StoryGame() {
   useEffect(() => {
     const listener = (e: KeyboardEvent) => {
       if (document.querySelector('dialog[open]') || aiBusy || panel || e.repeat || (e.target as HTMLElement).closest('input, select, textarea, [contenteditable=true]')) return;
-      if (e.key===' ' && (e.target as HTMLElement).closest('button:not(.vn-next), a')) return;
+      if ((e.key===' '||e.key==='Enter') && (e.target as HTMLElement).closest('button:focus-visible, a:focus-visible')) return;
       if (e.key === ' ' || (e.key === 'Enter' && !(e.target as HTMLElement).closest('button, a'))) {
         if (startScreen) { e.preventDefault(); if (ready) setStartScreen(false); return; }
         if (introducing || interlude) { e.preventDefault(); setG(confirmInterlude); return; }
@@ -142,12 +153,12 @@ function StoryGame() {
     window.addEventListener('keydown', listener); return () => window.removeEventListener('keydown', listener);
   });
   const fullscreen=<button className="vn-fullscreen" aria-label="切换全屏" onClick={()=>{if(document.fullscreenElement)document.exitFullscreen().catch(()=>{});else document.documentElement.requestFullscreen?.().catch(()=>{});}}><Maximize2 size={17}/></button>;
-  const endReading=useReading(generated.text??finalEnding?.text??'',`ending-${generated.text??finalEnding?.id??''}`,!!finalEnding,reducedMotion,!!panel||settingsOpen);
+  const endReading=useReading(generated.text??finalEnding?.text??'',`ending-${generated.text??finalEnding?.id??''}`,!!finalEnding,reducedMotion,!!panel||settingsOpen,speech.muted?undefined:speech.progress);
   const shortcuts=<button className="vn-shortcuts" disabled={!ready||aiBusy} onClick={()=>setPanel('chapters')}><BookOpen size={17}/>章节与结尾</button>;
-  const overlays=<>{fullscreen}<dialog className="vn-modal" ref={dialog} onCancel={() => setPanel(null)} onClick={e => { if (e.target === e.currentTarget) setPanel(null); }}>
+  const overlays=<>{returnProgress&&<button className="vn-return-progress vn-text-button" onClick={()=>{setG(returnProgress);setReturnProgress(null);setStartScreen(false);setPanel(null);}}>返回原进度</button>}{fullscreen}<dialog className="vn-modal" ref={dialog} onCancel={() => setPanel(null)} onClick={e => { if (e.target === e.currentTarget) setPanel(null); }}>
       <header><h2>{panel === 'chapters' ? '人生章节' : '人生回忆'}</h2><button aria-label="关闭" onClick={() => setPanel(null)}><X size={22} /></button></header>
-      {panel === 'chapters' ? <><p className="vn-navigation-note">前往任意章节，或带着已有的回忆看看结尾。</p><div className="vn-chapter-list">{story.map((c, i) => <button key={c.id} className={i === g.chapter ? 'selected' : ''} onClick={()=>navigate(i)}><span>{String(i+1).padStart(2,'0')}</span><div><strong>{c.title}</strong><small>{c.time}</small></div><ArrowRight size={17} /></button>)}</div><button className="vn-ending-shortcut" onClick={()=>navigate('end')}><span>终章</span><strong>铃声之后</strong><small>{memories.length} / {story.length} 段经历已留下</small><ArrowRight size={18}/></button></> : <MemoryBoard key={panel??'closed'} memories={memories} onRechoose={chapter=>revisit(chapter,'choice')}/>}
-    </dialog><ResetControl onReset={restart} onOpenChange={setSettingsOpen}/></>;
+      {panel === 'chapters' ? <><p className="vn-navigation-note">前往任意章节，或带着已有的回忆看看结尾。</p><div className="vn-chapter-list">{story.map((c, i) => <button key={c.id} className={i === g.chapter ? 'selected' : ''} onClick={()=>navigate(i)}><span>{String(i+1).padStart(2,'0')}</span><div><strong>{c.title}</strong><small>{i===g.chapter?'当前章节':g.picks[c.id]!==undefined?'已经历':'未经历'} · {c.time}</small></div><ArrowRight size={17} /></button>)}</div><button className="vn-ending-shortcut" onClick={()=>navigate('end')}><span>终章</span><strong>铃声之后</strong><small>{memories.length} / {story.length} 段经历已留下</small><ArrowRight size={18}/></button></> : <MemoryBoard key={panel??'closed'} memories={memories} onRechoose={chapter=>revisit(chapter,'choice')}/>}
+    </dialog><ResetControl onRestore={()=>{try{const raw=localStorage.getItem(key+'-backup');const old=raw&&restoreProgress(JSON.parse(raw));if(old){setG(old);setStartScreen(false);setSettingsOpen(false);}else window.alert('还没有可恢复的备份。');}catch{window.alert('备份暂时无法读取。');}}} onReset={restart} onOpenChange={setSettingsOpen}/></>;
   if (startScreen) return <GameViewport><main className="vn vn-start">
     <div className="vn-background" style={{backgroundImage:'url(/art/cover-cast.png)'}} />
     <div className="vn-vignette" />
@@ -205,7 +216,7 @@ function StoryGame() {
       <div className="vn-answer-area">
       <form className="vn-free-answer" onSubmit={e=>{e.preventDefault();void submitAnswer();}}>
         <label htmlFor="player-answer">按自己的想法回答</label>
-        <textarea id="player-answer" value={draft} maxLength={200} rows={3} disabled={aiBusy} onChange={e=>setDraft(e.target.value)} placeholder="写下你会说的话，或打算怎么做……"/>
+        <textarea id="player-answer" value={draft} maxLength={200} rows={3} disabled={aiBusy} onChange={e=>{setDraft(e.target.value);try{localStorage.setItem(key+'-draft-'+ch.id,e.target.value);}catch{}}} placeholder="写下你会说的话，或打算怎么做……"/>
         <div><span>{draft.length} / 200</span><button disabled={aiBusy || !draft.trim()} type="submit">{aiBusy?'正在回应…':'说出我的想法'} <ArrowRight size={17}/></button></div>
         {aiError && <p className="vn-ai-error" role="alert">{aiError}</p>}
         {aiAvailable===false && !aiError && <p className="vn-ai-note">自由回答暂未连接，右侧选项仍可继续故事。</p>}
@@ -219,7 +230,7 @@ function StoryGame() {
       <p className={`vn-reading ${!remembering&&paragraph.length>120?'vn-reading-dense':''}`} onClick={next}><span aria-hidden="true">{reading.visible}</span><span className="vn-sr-only" aria-live="polite">{reading.done?paragraph:''}</span></p>
       <div className="vn-dialogue-actions"><button className="vn-text-button" disabled={opening} onClick={previous}><ArrowLeft size={16} />上一句</button>
         {g.phase === 'intro' && <button className="vn-text-button vn-skip" onClick={() => setG({ ...g, phase: 'choice', line: 0 })}>前往选择 <ChevronDown size={16} /></button>}
-        <button className="vn-next" onClick={()=>{if(remembering&&g.line===Math.max(1,highlights.length)-1){if(reading.advance())setG(revealEnding);}else next();}}>{remembering?(g.line+1<highlights.length?'继续回望':'翻开最后一页'):g.line + 1 === lines.length && g.phase === 'intro' ? '做出选择' : '继续'}<ArrowRight size={20} /></button>
+        <button className="vn-next" onClick={next}>{remembering?(g.line+1<highlights.length?'继续回望':'翻开最后一页'):g.line + 1 === lines.length && g.phase === 'intro' ? '做出选择' : '继续'}<ArrowRight size={20} /></button>
       </div>
     </section>}
     <footer className="vn-footer"><span>{ready ? saved ? '进度已自动保存' : '本次进度暂未保存' : '读取进度…'}</span><span>{choosing ? '输入自己的想法，或按 1 / 2 / 3 选择' : '← 上一句 · → / 空格 下一句'}</span></footer>

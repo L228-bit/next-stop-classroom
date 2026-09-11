@@ -182,3 +182,10 @@ test('four complete routes preserve custom memories and invalidate old ending pr
   assert.deepEqual(memoriesFor(restored),memoriesFor(custom));
  }
 });
+
+test('audio progress never retracts text and manual completion still advances',()=>{
+ let shown=0;const reader=createReader('一二三四五六七八九十',(count)=>shown=count,false,{set:()=>0,clear:()=>{},now:()=>1000});
+ reader.progress(.6);assert.equal(shown,6);reader.progress(.2);assert.equal(shown,6);
+ assert.equal(reader.advance(),false);assert.equal(shown,10);
+ reader.cancel();reader.progress(.1);assert.equal(shown,10);
+});
